@@ -1,0 +1,269 @@
+#####################################################################################################################################################
+##
+##  Understanding Exergames Users' Physical Activity, Motivation and Behavior Over Time
+##
+#####################################################################################################################################################
+OBJETIVOS
+-entender motivação e comportamento dos usuários jogando exergames depois de muito tempo (duh)
+-ajudar designers de exergames a evitar o efeito platô encontrado nas avaliações de exergames até então
+-encorajar usuários a aumentar a proporção de atividade fisica moderada a vigorosa.
+-perguntas da pesquisa:
+ -quanta atividade fisica um jogador faz e quanto isso muda ao longo de 7 semanas?
+ -qual a gama de motivações que os jogadores mostram?
+ -como que os jogadores escolhem entre jogos e niveis de dificuldade e como isso afeta self-efficacy?
+
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS
+-notam que existem poucos estudos longitudinais (q seguem por um bom tempo) de efeitos de exergames
+-notam que 2 estudos pesquisaram o efeito ao longo de um bom tempo, e os dois notaram efeito platô
+-notam que self-efficacy é importante a predizer sucesso de uma intervenção de atividade fisica, assim como o comportamento daqueles
+ que fazem parte da intervenção
+-Com o passar do tempo, jogadores passaram menos tempo em atividade moderada/vigorosa (efeito platô), porém ainda assim
+ os nives de atividade pós-estudo eram maiores que os níveis de atividade pré-estudo, princpalmente de atividade leve, o que foi
+ um melhoramento em relação ao outros estudos.
+-jogadores em média experimentaram mais mini-games nas sessões iniciais antes de estabilizarem a só jogar alguns em que eram melhores
+-geralmente jogadores usaram a dificuldade dada pelo sistema.
+-sucesso no jogo é relativo ao usuário e não é necessariamente ligado a satisfação (enjoyment).
+-competição pode ser bom em um exergame, mas tem que tomar cuidado com o background dos usuários. Pois essas abordagens baseadas em ego
+ podem levar a motivações indesejadas e comportamentos negativos em relação ao jogo, principalmente nos jogadores com baixa self-efficacy
+-relações com self-efficacy:
+  -jogadores com alta:
+    -escolhiam jogar o mesmo jogo repetidas vezes, mesmo se falhassem ou não fossem bons nele
+    -aumentavam a dificuldade mesmo tendo perdido o jogo (mais fácil) anterior
+    -setavam cada vez objetivos mais dificeis, ou ficavam em jogos que eles tinham que melhorar até estarem satisfeitos
+  -jogadores com baixa:
+    -evitavam jogar jogos em que eles eram ruins
+    -diminuiam dificuldade para maximizar chances de sucesso
+    -setavam objetivos fáceis e não os alteravam ou simplesmente evitavam jogos que tinham dificuldades em atingir o micro-objetivo do mini-game.
+-em sete semanas, o jogo foi usado 12 vezes (sessões tinham 20-30 mins, e 1-3 sessões por semana), por 12 participantes.
+-coleta de dados:
+  -logs das jogadas
+  -questionários:
+    -pré-intervenção: self-efficacy
+    -pós-intervenção: self-efficacy e de experiência/motivação
+  -observação dos jogadores (em 9 das 12 sessões)
+  -entrevista semi-estruturada depois da intervenção
+  -na ultima sessão, dados de atividade fisica foram obtidos com um acelerometro mais preciso que um iphone
+-metodologia: estudo de caso para análise
+
+PROBLEMAS
+-poucas fontes de dados (12 participantes, sendo que alguns sairam no meio do caminho) em poucas sessões (só 12) ao longo das 7 semanas.
+-forma precisa de medir atividade fisica só usada na ultima sessão.
+
+
+#####################################################################################################################################################
+##
+##  Bodily Interaction in the Dark
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-centrais ao trabalho: idéias fenomenológicas de que nossa percepção e entendimento do mundo são limitados pelo nosso movimento e experiências
+ corpóreas que não podem ser completamente entendidas sem reconhecer o contexto em que atuamos essas experiências.
+-Somaestética se concentra em especial na relação entre nosso corpo e experiências conscientes e how our mindful and aesthetic experiences estão
+ ligadas a práticas corporais.
+-usar a falta de estimulo visual de um problema a ser resolvido como um recurso para design de interação, e estudar o impacto dos aspectos 
+ sociais e emocionais (solidão, medo, perigo, eroticismo) no design de interação.
+-criar um sistema de interação no escuro usando Kinect (ele usa infrared) e estudar seu uso. Apresentar descobertas sobre a atitude a interpretação
+ dos usuários em relação a uma interação com o corpo no escuro, e como designers podem usar isso para criar ou melhorar experiencia somaestética.
+
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-sistema:
+    -funciona com o kinect, no escuro.
+    -para dar feedback ao usuário, não tem visual, tem sonoro, com usuário usando um headphone e o programa gera som posicional (stereo e tal) pra indicar
+    -propósito: identificar um objeto (como um circulo 2D ou esfera 3D) no espaço virtual, seguindo a silhueta com as mãos. 
+    -como: proximidade das mãos com a silhueta toca musica, aumentando volume no lado adequado dependendo da posição e qual mão tocou.
+    -quando o usuário "sentiu" o objeto inteiro, um novo objeto é criado e substitui o antigo.
+-estudo:
+    -7 participantes
+    -como eles usaram o sistema, e como suas experiencias diferiram entre usar na luz e no escuro.
+    -10 minutos na luz e 10 minutos no escuro (intercalados/balanceados), numa sala vazia.
+    -metodologia: estudo (caso?) de usuário
+    -coleta de dados:
+        -entrevista semi-estruturada de 30minutos depois da interação do usuário, focada na diferença da experiência entre luz e escuro
+        -coleta de dados do kinect
+        -interações e entrevistas filmadas para analise
+-descobertas:
+    -dificil delinear o contorno de objetos tanto no escuro como no claro
+    -sem diferença notável de tempo para localizar objetos e completar objetos com sucesso entre o escuro e a luz
+    -participantes sentiram que foram melhor no segundo bloco de interação, fosse luz ou escuro - aprendizado do bloco anterior melhorou sua perpectiva
+    -participantes acharam que no escuro sua experiência foi melhor, com qualidades como: pacifica/calma/relaxante, intuitiva/natural/orgânica, 
+     menos artificial, menos frustante, coerente
+    -na luz, participantes delineavam o objeto memorizando visualmente onde suas mãos passaram
+    -no escuro, participantes delineavam o objeto memorizando seu movimento corporal (e das mãos). "vc para de tomar dicas do ambiente, e toma dicas de você mesmo"
+    -falta de referencia visual forçou eles a serem mais conscientes de seus corpos e movimentos
+    -participantes ficaram mais cuidados e conscientes com seus movimentos no escuro. Disseram que melhorou seus outros sentidos
+    -em essência, fazer as coisas no escuro é uma experiência mais reflexiva e consciente com seu corpo: participantes descreviam suas ações em relação ao seu
+     corpo em vez do ambiente, e estavam mais preocupados com seu sentimento em vez da aparencia visual do movimento.
+    -em relação ao espaço/ambiente, alguns participantes ficaram mais cuidados no escuro, com relutância de se mexer no escuro por medo de bater em algo.
+     enquanto outros ficaram mais "livres", mais abertos a movimentos, menos cuidadosos, sentindo que o ambiente era maior e mais livre, e com menos distração
+     quase um desligamento da realidade.
+    -alguns participantes também sentiram mais pressão de fazer movimentos "corretamente" na luz, pela sensação de serem observados.
+    -eles notam que essa relação de escuro com uma consciencia mais contemplativa dos corpo e movimentos não é algo novo, mas que esse estudo mostra que
+     isso (e formas não-visuais de interação) pode ser levado em consideração no design de interação para alcançar formas contemplativas/reflexivas de interação.
+    -movimentos no escuro foram mais lentos e metódicos, "slowing down" as pessoas e levando a sentimentos de relaxamento. Eles notam que isso também
+     deve ser levado em consideração no design de interação
+    -no escuro a imaginação da pessoa também foi mais influencial, mudando como a pessoa "via" o mundo virtual. isso também pode ser aproveitado no design.
+
+PROBLEMAS:
+-Artigo é curto e direto ao ponto. Fez um experimento com poucos participantes, para testar um sistema simples em sessões curtas.
+-Podiam ter experimentado a interação no escuro em outros contextos/aplicações (não só "sentir" um objeto no escuro) para avaliar se tem diferença para 
+ o usuário.
+-Podiam ter experimentado a interação no escuro com outras formas de feedback pro usuário, além da auditiva, e possivelmente incluindo feedback visual,
+ desde que não fosse intenso o suficiente para "iluminar" a sala e retirar a sensação de estar no escuro.
+-Porém eles referenciam alguns artigos que já experimentaram com interação no escuro, mostly com feedback visual minimo ou nenhum at all. Mas não entram
+ em detalhes sobre eles, o que é ruim pro leitor (deixa a desejar ainda)...
+ 
+#####################################################################################################################################################
+##
+##  ARTIGO 3
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 4
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 5
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 6
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 7
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 8
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 9
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 10
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 11
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 12
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 13
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 14
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
+
+#####################################################################################################################################################
+##
+##  ARTIGO 15
+##
+#####################################################################################################################################################
+OBJETIVOS:
+-
+CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-
+PROBLEMAS:
+-
