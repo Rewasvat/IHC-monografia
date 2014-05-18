@@ -114,15 +114,65 @@ PROBLEMAS:
  
 #####################################################################################################################################################
 ##
-##  ARTIGO 3
+##  Designing Action-based Exergames for Children with Cerebral Palsy
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-Desenhar (e definir diretrizes para) exergames de ação com ritmo rápido para crianças com paralisia cerebral (PC).
+-crianças com PC que precisam de ajuda para andar (mobility aid) tendem a piorar ainda mais sua capacidade de movimento com o passar
+ do tempo, devido a fraqueza dos musculos por ficarem fora de forma.
+-exergames já foram usados para incentivar fisioterapia em crianças com PC antes, porem quase todos tem um ritmo lento, o que não é estranho
+ pois várias diretrizes de design de jogos para crianças com deficiências motoras sugerem tal coisa.
+-acreditam que jogos de ritmo lento são precários para serem usados como exergames, que incentivam atividade fisica vigorosa.
+-mostrar como diretrizes tradicionais de design de jogos para crianças com deficiências motoras podem ser levadas em consideração de forma relaxada (não literal)
+ para criar um jogo que é acessível e tem ritmo-rápido (ação).
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
--
+-descobriram ao longo de estudo de 1 ano que crianças com PC querem jogar jogos de ritmo rápido.
+-para crianças com PC, maiores problemas para jogar jogos de ação são: abilidade manual, controle de movimentos, integração movimento-visual, 
+ processamento espacial-visual e atenção
+-crianças com PC tem várias dificuldades em jogar jogos de ação (ritmo rápido) usuais
+-aparentemente foram os primeiros a testar algo desse jeito
+-exergame que criaram:
+    -chamado Liberi
+    -contem 6 mini-exergames de ação que jogadores podem jogar juntos, artigo descreve 3 deles.
+    -usa um controle padrão wifi e um pedal de bicicleta reclinado feito especialmente para crianças com PC.
+-avaliação
+    -usaram metodologia de design iterativo para criar o jogo
+    -time: 10 crianças com PC (7 garotos, 3 garotas), pediatra especializado em PC, um fisioterapeuta, cientistas de computação e um engenheiro mecânico.
+           e receberam ajuda por fora de um designer profissional de jogos e um psicólogo exercicio(?)
+        as crianças tinham entre si idades entre 12 e 18 anos, e niveis diferentes de capacidade motora.
+    -7 sessões de design e avaliação com a equipe em 12 meses onde aprenderam a experiência, preferência e abilidades das crianças, e testaram
+     vários aspectos de jogabilidade, usabilidade e diversão do jogo.
+    -também tiveram sessões de brainstorm com as crianças, onde elas deram idéias para o jogo - e mostraram uma grande preferência para jogos de ação.
+    -depois das sessões de avaliação conduziram um experimento de 8 semanas na casa de metade dos participantes, onde as crianças poderiam jogar a ultima
+     versão do jogo quando quisessem por uma hora e meia, e em média as crianças jogaram o equivalente a fazer uma atividade fisíca vigorosa moderadamente.
+     depois entrevistaram as crianças
+-dozo quest:
+    -inicialmente esse jogo tinha várias mecânicas que complicam/dificultam o jogo para as crianças, e boa parte delas reclamou disso e achou o jogo
+     dificil e não conseguiam jogá-lo
+    -depois, durante as iterações, descobriram que alterando os seguintes pontos deixavam o jogo bem mais fácil e divertido para as crianças jogarem:
+     simplificar desenho e fluxo do level, reduzir consequências de erros e limitar ações possíveis.
+-bobo ranch:
+    -pontos: remover necessidade de posicionamento e mira precisa, e deixar o estado do jogo bem visivel
+-gekku race:
+    -pontos (novos): balancear o jogo para abilidades fisicas diferentes
+-no geral as crianças jogaram bastante os jogos, gostaram deles (tanto os competitivos como os cooperativos) e concordaram que eram fisicamente cansativos.
+-problema de atenção que as crianças necessitavam para pedalar foi mitigado pelo jogo em si necessitando de menos atenção do jogador.
+-Sistema de classificação de capacidade de movimento: escala de 1 (menos dificuldade) a 5 (mais dificuldade). Maioria das crianças participantes era
+ nivel 3 (precisa de ajudar para andar, como um andador), e uma era nivel 4 (precisa de cadeira de rodas manual). Todas conseguiram jogar e gostaram 
+ dos jogos. A criança de nivel 4 precisou de ajuda para pedalar, mas ainda assim gostou do jogo.
+-hipotetizam que com um dispositivo de pedalar (ou equivalente de atividade fisica) mais apropriado o jogo poderia ser usado por crianças com mais dificuldade
+ de movimento (nivel 4 ou 5), e com diferentes tipos de deficiência motora (por exemplo, ferimento na coluna), mas que ainda assim mais testes seriam
+ necessários para garantir uso e jogabilidade em tais casos.
 PROBLEMAS:
--
+-foi bem escrito, bem referenciado.
+-estranho terem usado 10 crianças no processo de design iterativo e somente 5 no experimento em casa depois. E quando falam da opinião das crianças
+ sobre um jogo (durante o processo iterativo), alguns casos (Dozo Quest) mencionam só 6 opiniões, e não 10.
+-aparentemente fizeram um processo de design iterativo bem como vimos em aula, e tiveram sucesso. equipe diferenciada (programadores, fisioterapeuta, etc)
+ também foi bom
+-podiam ter testado outra forma de input fisico (alem do pedalar) e com outros tipos de deficiencia motora ou dificuldade de movimento, mas eles hipotetizam
+ isso e mencionam que seria trabalho para outro futuro teste.
 
 #####################################################################################################################################################
 ##
