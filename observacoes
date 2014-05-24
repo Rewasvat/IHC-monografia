@@ -176,15 +176,77 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 4
+##  Designing Bodily Engaging Games - Learning From Sports
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-esboçar trabalhos relacionados em design de interação que se inspiraram em esportes com duas ou mais pessoas.
+-descrição de 2 casos de design do qual parametros de design e características de jogos foram usadas e derivadas.
+-mostrar como "open skills" podem servir de parametros de design para jogos cinestéticos que desafiam participantes mental e fisicamente.
+-descrever caracteristicas de jogos que incentivam movimento e como eles podem ser usados no design de jogos interativos fisicos,
+ e como eles podem ser embutidos tanto no equipamento como no software controlando-o.
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-esportes são amplamente usados como inspiração para jogos que combinam competição e exercicio fisico com entretenimento e socialização
+-open skills são habilidades motoras feitas em um ambiente imprevisivel e variavel que dita como e quando habilidades são usadas.
+-existem jogos digitais que usam o corpo como ferramenta de interação (Wii, Move, Kinect), mas fora as limitações dos controles, jogadores não
+ interagem entre si pois ficam olhando para uma tela - a habilidade de olhar e prever o movimento de seu oponente (open skills) não é usada.
+ Consequentemente, o jogo não usa uma caracteristica importante do esporte em que ele se baseiou, e tem muita pouca similaridade com ele.
+-também existem jogos digitais que incentivam movimento (exergames), porém muitos também sofrem de se basear em algum esporte mas falham em
+ implementar uma caracteristica importante como pensar taticamente e prever movimento de um oponente, resolver desafios de decidir o que fazer e 
+ quando faze-lo.
+-Ele nota somente um jogo, Sportpong (futebol+pong), que consegue ser mais ou menos uma tradução direta funcional.
+-ponto comum entre todos esses jogos revisados é que eles se inspiram em esportes mas falham em reproduzir aspectos importantes do mesmo, que levam
+ a uma relação cinestética entre os jogadores. Propõem envolver a mente além do corpo e deixar os jogadores escolherem suas ações. Isso permitirá
+ que os jogadores relacionem entre si e não só com o computador.
+-Descrevem um jogo TacTower
+    -testado com atletas profissionais de handball
+    -consiste em 4 torres com 8 bolas cada com sensores de toque e luzes RGB. 
+    -As torres são postas em uma linha, com distâncias iguais entre elas (quanto de distância depende). 
+    -Dependendo de onde uma bola é acertada, sinais de luz são enviados para direções diferentes (para outras bolas).
+    -2 jogadores, um de cada lado da linha, podem interagir (olhar) para o outro e interagir com as torres, em alguns minigames.
+    -isso permite que eles se exercitem (todo movimento corporal para se movimentar entre torres e acertar as bolas - algo parecido com o que é feito
+     no handball) e que eles se relacionem cinestéticamente (promove empatia corporal), vendo o oponente e prevendo seus movimentos e decidindo o que fazer.
+-Descrevem um jogo BodyQuake
+    -ainda em desenvolvimento de protótipo
+    -é para ser um "jogo de parque", com 3 dispositivos permitindo 1 jogador em cada.
+    -cada dispositivo tem uma plataforma onde o jogador se posiciona, com 5 zonas de alvo (que podem acender) e 1 zona de ataque, e um guidão/poste 
+     onde ele se segura, e motor para force feedback e leds.
+    -tem alguns minigames pra jogar com os dispositivos
+    -isso incentiva equilibrio, coordenação motora e habilidades táticas e (empatia) cinestéticas - promove uma consciência mutua entre os participantes para 
+     prever e reagir ao movimento dos outros.
+-3 principais habilidades (open skills) de jogos interativos - inerentes e essenciais para esportes interativos: 
+    -antecipação: jogador percebe o ambiente e outros jogadores, filtra informação e tenta prever o que vai acontecer, ou o que algum jogador irá fazer.
+     usos especificos de antecipação podem variar de jogo para jogo, de coisas simples (como uma bola quicando) a mais complexas, mas está presente em todos.
+    -tática/tomada de decisão:  tomada de decisão são pontos-chave em esportes interativos, pois o jogador tem que constantemente analisar a situação e realizar
+     ações para melhorar seu resultado, e tudo sob restrições como estratégias da equipe ou mais importantemente, limites de tempo.
+    -engano(ilusão): o ato de indicar que será realizada uma ação enquanto que outra ação é pretendida, com o propósito de dar informação falsa
+     ao oponente para fazer com que ele tome uma decisão errada.
+-essas 3 habilidades estão presentes no tactower
+-beneficios de fazer um jogo baseado nos fundamentos de esportes (as open skills, exemplificado pelo tactower): as ações do jogador não são decididas anteriormente
+ ou pelo computador, mas são ditadas pelas ações de oponentes e companheiros. Usando as open skills como parametros de design foi criado um jogo desafia os
+ jogadores tanto mental quanto fisicamente, e a interação entre os jogadores precede a interação com os dispositivos ou ambiente.
+-com os testes de tactower com jogadores de handball ficou evidente que eles ficaram envolvidos com o jogo, ficando excitados, suados, gritando e torcendo em minutos.
+-ele extende uma classificação de jogos interativos (de outros artigos) para definir 3 caracteristicas de jogos, para classificar jogos interativos:
+    -esportes de objeto: jogadores são mais livres, podem se distanciar temporariamente, e competem com os oponentes por controle/uso de um objeto.
+    -esportes de combate: jogadores tentam controlar uns aos outros, ainda com movimentos livres com a exceção de algumas restrições (como de ambiente)
+    -esportes de imobilização: um subconjunto de esportes de combate, nesses os jogadores podem segurar e imobilizar oponentes, o que implica que nem sempre eles
+     terão contato visual, tendo que usar sensações corpóreas para adquirir informações sobre a situação.
+-essas caracteristicas podem influenciar ou serem usadas para prever a interação entre jogadores e as open skills mais usadas.
+-o equipamento/objeto/instalação devem ser desenhados de tal forma que o uso deles (a interação com o computador) se torne secundário em relação com a experiência
+ corpórea colaborativa dos participantes (que é mediada pelo computador)
+-as caracteristicas são um fator decisivo no design fisico do equipamento e também determina o posicionamento dos jogadores.
+-no tactower e bodyquake, os componentes digitais limitam a estrutura dos jogos, mas cada jogo é feito de tal maneira que um jogador tem que usar as open-skills
+ e diferentes táticas para atingir seu objetivo, e isso envolve e motiva os jogadores a jogarem e competirem entre si numa experiencia que desafia corpo e mente.
 -
 PROBLEMAS:
--
+-só mais para o final fica claro que o autor esteve envolvido no desenvolvimento do TacTower e BodyQuake
+-ele não entra em detalhes de como os jogos foram desenvolvidos, muito menos em como o tactower foi testado/avaliado. Simplesmente explica o jogo e no caso do tactower,
+ "pula direto pro resultado", falando brevemente que os jogadores gostaram e estavam envolvidos com o jogo.
+-fora isso, ele hipotetiza muito (principalmente com o jogo bodyquake, que ainda está em desenvolvimento e não foi testado) sobre a experiência do jogador no jogo. Mas
+ faz sentido dada a definição do jogo/equipamento, e talvez pareça assim pois ele não fez testes/avaliações de fato
+-avaliações cara, é bom né?
+
 
 #####################################################################################################################################################
 ##
