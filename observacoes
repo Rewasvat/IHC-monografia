@@ -250,14 +250,51 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 5
+##  Considerations for the design of exergames
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-rever história e pesquisas atuais (em 2007) de exergames para tentar explicar porque alguns exergames foram bem sucedidos enquanto outros não foram
+-nota que existem pesquisas sobre os beneficios a saude de exergames, mas não muito sobre como fazer o design de jogos exercicio.
+-baseando nessa informação e em principios de regimes de exercicios, identificar fatores de sucesso para guiar designers de exergames.
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-um dos fatores para o interesse em exergames é o aumento da obesidade, principalmente em crianças
+-obesidade em crianças e adolescentes são principalmente causadas por falta de exercicio fisico e dietas inadequadas, ou ambas, com genética também
+ sendo importante. Também é conhecido que a falta de exercicio fisico é o pior fator, e é mais importante as crianças fazerem exercicios do que limitar
+ o que comem.
+-crianças perdem mais tempo na frente de uma tela (computador, TV, video game) do que se exercitando, consequentemente...
+-interfaces de exercicio (como o tapete com botoes do DDR), tem que ser casada com o jogo certo para ser bem sucedido
+-analisando pesquisas passadas, notam que:
+    -estudos indicam que crianças preferem fazer exercicios fisicos a outras atividades (como ler ou desenhar) para ganhar acesso a TV e videogames.
+    -algums exergames conseguem induzir um exercicio moderado, como seria necessário para um regime, mas que o jeito como o jogo faz isso não é o ideal,
+     e isso se dá pois os jogos não foram feitos especificamente com esse intuito.
+    -exergames podem ser usados como forma de exercicio para combater obesidade
+    -exergames podem ser imersivos e provendo exercicio fisico intenso, mas um problema que atletas profissionais relatam é a falta de feedback fisico ao usuário.
+    -áreas importantes para maximizar envolvimento com o jogo e aptidão fisica: atividades de aquecimento e cool-down, gerenciamento do tempo de loading,
+     integração de medidas fisiológicas, e ajuste dinâmico do tempo de jogo.
+    -4 pontos importantes para tecnologias que promovem atividade fisica: consciência pessoal do nivel de atividade, suportar influência social,
+     dar crédito aos usuários pelas atividades, e considerar as restrições dos estilos de vida dos usuários.
+-2 fatores de sucesso para um exergame:
+    -atratividade: um jogador tem que gostar e querer continuar jogando o exergame (estar no fluxo) para receber os beneficios do exercicio fisico. Várias qualidades do jogo
+     podem ser alteradas pelo seu designer a fim de melhorar esse ponto, assim como o dispositivo de interface fisica usada, tomando cuidado para não dividir
+     a atenção do jogador entre o dispositivo e o jogo (a tela).
+    -eficiência (de exercicio fisico): para maximizar os beneficios a saude do exergame, a intensidade e tipo de exercicio fisico tem que ser considerados.
+     A aptidão fisica do jogador tem que estar balanceada com o desafio do exercicio, o que corresponde à habilidade do jogador e desafio do jogo na teoria do fluxo.
+     Porém, no fluxo, essas medidas são subjetivas, enquanto que com exercício fisico é possível usar a medida do batimento cardíaco para isso.
+-propõem um modelo dual de fluxo - um para atratividade, outro para eficiência. Balanceamento adequado de ambos pontos provavelmente levarão o exergame
+ a ser um sucesso de ser jogado e de atingir o objetivo de treinar fisicamente um individuo.
+-porém alguns pontos nisso, principalmente no quesito de quanto exercicio um individuo necessita, dependem do próprio jogador. Alguma forma do jogo receber
+ feedback do jogador (como nivel de fatiga, de tédio, etc, além de monitorar batimento cardiaco) pode ser necessário para desenvolver um exergame de sucesso
+ que se adapte à necessidade do jogador para manter o fluxo dual.
 -
 PROBLEMAS:
+-a introdução não introduz muito bem o artigo, simplesmente falando sobre vendas e aumento de interesse (por alguns fatores) em exergames.
+ só nos ultimos 2 paragrafos (de 5) que ele introduz rapidamente o que esse artigo irá falar sobre.
+-na seção 3.2, eles dizem "mais de uma década depois, em 1988, um produto similar [ao PowerPad] foi lançado, chamado DanceDanceRevolution", porém 
+ anteriormente ele indica que o PowerPad foi lançado em 1987 - um ano antes. O DDR foi lançado em 1998.
+-puramente teórico, faltou testes práticos. Mas eles indicam que já estavam desenvolvendo exergames para testar seu modelo em trabalhos futuros.
+-ultima página é totalmente branca...
 -
 
 #####################################################################################################################################################
