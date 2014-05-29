@@ -299,14 +299,98 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 6
+##  Designing Universally Accessible Games
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-introduzir conceito de jogos universalmente acessiveis - jogos desenhados para adaptar para as características de jogadores individuais e ser jogado
+ concorrentemente por pessoas com diversas abilidades, sem necessitar de modificações particulares.
+-conceito elaborado e testado através de 4 casos de estudo: jogo de xadrez online, um jogo de ação, um jogo "universalmente inacessivel" educacional,
+ e uma versão melhorada do jogo de ação.
+-propor outro conceito como possível solução para jogos multi-jogador universalmente acessiveis.
+-pouca atenção foi dada a esse tópico, e diretrizes para tornar softwares acessíveis que estão se tornando comuns usualmente não podem ser aplicadas
+ a jogos.
+>artigo usa acessabilidade não só para falar de pessoas com deficiências fisicas, mentais ou de sentidos, mas também sobre pessoas com deficiências
+ situacionais - por exemplo, um jogador que não consegue jogar pois tem muito ruído no ambiente.
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
--
+-estudando trabalhos relacionados, notam que há poucos trabalhos nessa área, e nenhuma politica governamental para jogos acessíveis, nem diretrizes
+ ou padrões oficiais sobre isso, nem iniciativas globais (como a de acessabilidade para web W3C-WAI). Há no entanto 2 força-tarefas internacionais
+ tentando criar e consolidar diretrizes de jogos acessiveis, mas até a publicação do artigo, não haviam tido muito sucesso.
+-até então, 2 jeitos para resolver acessabilidade em jogos foram usados:
+    -adaptar jogos comuns existentes com software ou dispositivos voltados para acessabilidade externos (como leitores de tela e emuladores de mouse). 
+     mas isso implica em vários problemas de compatibilidade, usabilidade, design e outros...
+    -desenhar jogos acessiveis desde o começo do desenvolvimento, mas voltados para um grupo de deficiência especifico, como jogos auditivos para
+     pessoas cegas. O que implica em problemas de mercado e exclusão social (segregação de jogadores deficientes ou não).
+-para desenhar jogos UA eles usam um processo de design iterativo com algumas modificações, sempre testando com usuários (de características diferentes)
+ e experts em alguma(s) área(s).
+-usando esse processo fizeram 4 jogos para servir de prova de conceito e casos de estudo:
+-UA-Chess:
+    -suporta um grupo abrangente de deficiências (cegos, dificuldade de movimento das mãos, problemas de memória leves, etc).
+    -jogo 1x1 local ou pela internet, o jogo adapta para jogadores com deficiencias diferentes jogarem juntos.
+    -suporta várias formas de input e output (feedback pro usuário) paralelamente.
+    -foi nomeado para o European Design for All Awards, se tornando o primeiro jogo na história a seguir os princípios de design para todos.
+    -desafios de design: perfils de jogador alternativos; acesso de usuário com deficiência motora por exploração hierárquica baseada em interruptor;
+     acesso de usuário cego por navegação não-visual; reconhecimento de voz; acesso para jogadores com visão deteriorada; acesso para pessoas com problemas
+     leves de memória ou cognição; suportar usuários "tipicos" de Windwos; entrada por linha de comando;
+    -avaliação:
+        -6 participantes (19-25 anos): 1 normal, 2 cegos, 3 com problemas motores (usando 1, 2 e 3 interruptores, respectivamente).
+        -questionário para pegar opinião
+        -fizeram rodadas entre os participantes num torneio casual, sem que eles soubessem quem era o oponente
+        -receberam boas notas, usuários estavam bem felizes com o jogo, principalmente os desabilitados. Também ficaram mais motivados depois de 
+         descobrir quem era o oponente (após o jogo).
+-Access Invaders:
+    -versão acessivel de space invaders.
+    -se adapta baseado e perfil do jogador - com um perfil selecionado, jogo muda conteúdo e métodos de interação.
+    -suporta grupo abrangente de deficiências (problemas motores, cegos ou visão ruim, dificuldades cognitivas)
+    -suporta várias formas de input paralelamente, e outras formas de output (auditiva 3D para cegos).
+    -regras do jogo mudam pelo perfil (por exemplo, jogo fica mais devagar para usuários com problemas motores).
+    -avaliação:
+        -9 participantes (19-30 anos): 3 normais, 3 cegos, 3 com problemas motores.
+        -questionário para pegar opinião
+        -No geral os resultados foram bons, mas pode ter sido porque o jogo era simples.
+        -descobriram que o valor social criado pelo jogo UA criava uma atitude positiva nos jogadores, deixando-os menos estritos e mais tolerantes.
+        -participantes reclamaram que ou jogo era bem dificil ou bem fácil, e os cegos também reclamaram da qualidade do áudio/voz e falta de ajuda
+         com o jogo em forma auditiva.
+-Game Over!:
+    -é um jogo inacessível (que não pode ser jogado por ninguém) educacional - propósito é ser usado como uma ferramenta educacional para ensinar
+     diretrizes de acessabilidade em jogos, dando a desenvolvedores de jogos uma experiência em primeira mão frustante de como é interagir com um
+     jogo que não é acessível.
+    -prova de conceito para um jogo que aumentar a consciência de desenvolvedores de jogo sobre acessabilidade e ensiná-los principios relacionados.
+    -ganhou People's Choice award na Academy Games Awards, em Montreal.
+    -jogo tinha que ser algo conhecido para não ser estranho pro jogador, quebrar 1 regra de acessabilidade por vez e depois explicar o que aconteceu
+     e soluções, para não confundir e ensinar o jogador, ser fácil de jogar, entre outros.
+    -fizeram um reversal de space invaders, onde o jogador controla um dos aliens, se defendendo das naves terráquias.
+    -avaliação:
+        -durante design/desenvolvimento, mostraram projeto e testaram protótipos e cada level (dos 21) com um grupo de pessoas (game dev, engenheiro
+         de software, expert de usabilidade, estudantes de CC, etc).
+        -soltaram jogo na web, com um questionário (parte sobre jogo, parte sobre demográfico).
+        -resultados bons sobre o jogo e sua utilidade (pelo questionario web)
+-Terrestrial Invaders:
+    -baseado no Access Invaders e no jogo do GameOver! (mas dessa vez pra ser um jogo acessivel de fato, resolvendo quase todos 'problemas' do GameOver mostrava)
+    -várias caracteristicas de acessabilidade que podem ser modificadas.
+    -várias formas de input e output paralelas
+    -assim como no AccessInvaders, jogadores concorrentes são suportados, assim como multiplos grupos de inimigos. Cada jogador pode jogar contra todos ou
+     alguns grupos especificos de inimigos (que tem suas caracteristicas adaptadas ao jogador), para que mais de um jogador, com abilidades diferentes,
+     possam jogar o mesmo jogo cooperativamente.
+    -foi testado in-house e posto na web com questionário (como no GameOver), mas ainda não tem resposta suficientes para analisar estatisticas.
+-Conceito de Universos Paralelos de Jogo (Parallel Game Universes):
+    -problema encontrado durante desenvolvimento dos casos de estudo anteriores: como permitir que jogadores com abilidades (deficiencias) diferentes
+     consigam jogar o jogo cooperativamente, enquanto estão totalmente conscientes das ações dos outros e jogam o jogo adaptado a suas necessidades?
+    -solução: esse conceito (duh)
+    -permitir que cada jogador jogue em "um universo diferente" dentro do jogo, e projetar cada universo para os outros verem.
+    -um "universo de jogo" é uma instância do jogo adaptada para um jogador (e suas abilidades/problemas) especifico: regras e métodos de interação são modificados.
+    -problema: dois universos com necessidades conflitantes de output. Possíveis soluções:
+        -recursos computacionais redundantes para ter ambos outputs sem conflito (como 2 placas de audio e fones)
+        -"função de transição" para traduzir o que acontece em um universo para o outro, de forma que é adequada e significativa no outro universo.
+    -elementos do jogo podem existir concorrentemente em mais de um universo, com propriedades diferentes em cada (de acordo com o universo), mas quando é 
+     "destruido" em um universo, é em todos. Dessa forma jogadores podem ajudar seus companheiros de outros universos.
+    -esse conceito pode ser aplicado para jogos competitivos também, tomando cuidado se o jogo será justo entre os jogadores com (dis)abilidade diferentes.
+     Uma opção é um jogador com mais disabilidade jogar junto com um terceiro jogador, ou com ajuda da AI.
+     
 PROBLEMAS:
+-muito longo (29 páginas), e não segue o padrão de formatação de artigos (2 colunas e tal) mas não sei se esse ultimo é um problema...
+-lista de itens, seção 7.1.2, páginas 15-16, falta o ponto preto na coluna esquerda indicando um item em alguns deles.
 -
 
 #####################################################################################################################################################
