@@ -391,19 +391,119 @@ CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
 PROBLEMAS:
 -muito longo (29 páginas), e não segue o padrão de formatação de artigos (2 colunas e tal) mas não sei se esse ultimo é um problema...
 -lista de itens, seção 7.1.2, páginas 15-16, falta o ponto preto na coluna esquerda indicando um item em alguns deles.
--
+-bem detalhado, e coisas não tão bem detalhadas (como detalhes e resultados de cada jogo) são normalmente referenciadas para ver onde tem mais detalhes,
+ principalmente os jogos que tem outra publicação para cada um.
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 7
+##  Physical Activity Motivating Games: Be Active and Get Your Own Reward
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-querem introduzir atividade fisica complementar em uma atividade normalmente sedentária: jogar videogames. 
+-encoraga jogador a realizar atividades fisicas especificas para ganhar coisas no jogo, potencialmente melhorando suas chances de sucesso nele.
+-ao contrário de consoles com elementos ativos (como Wii) que facilita exercicio através do jogo, propósito do artigo é criar um design que
+ motiva a realização de atividade física.
+-chamaram esse design de "Play, Mate!"
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-em contraste com outros aplicativos que tentam incentivar atividae física pesquisados, o PlayMate design não depende de fatores motivacionais externos,
+ mas aproveita o envolvimento com jogos para motivar o usuário.
+-ao contrário de interfaces de exercício físico, que necessitam que o jogador se exercite para jogar, esse PlayMate design permite que o jogador
+ escolhe quando e quanto se exercitar.
+-além de avaliar o impacto da adaptividade de um jogo (ao jogador) na apreciação e diversão do jogo, como outras pesquisas fizeram, esse artigo também
+ avalia o impacto da adaptividade na quantidade de exercicio fisico feita pelo jogador, o que indica a aceitação do PlayMate.
+-Sumarizam que não existe uma unica teoria motivacional que sustenta totalmente o PlayMate - ele integra uma coleção de teorias motivacionais e de recompensa.
+-componentes e aspectos de interação (jogo-jogador) modificados para motivar exercicio fisico:
+    -Motivador relacionado com o jogo: o jogo mostra e incentiva jogador a fazer exercicio fisico para ganhar recompensas dentro do jogo (para facilitar uma tarefa, etc)
+    -Interface da atividade: jogadores tem que ter uma interface externa (um equipamento) para reconhecer a atividade fisica feita, processá-la e gerar
+     a recompensa in-game instantaneamente.
+    -Controle do jogo: tomar cuidado se controlar o jogo e realizar a atividade fisica paralelamente não será muito complicado. Pode aumentar a capacidade
+     de controle do fluxo do jogo do jogador.
+-PlayMate é não-coercivo: jogador pode jogar e terminar o jogo sem realizar atividade fisica, mas quase certeza que será uma tarefa mais complicada e dificil.
+-trabalho e recursos necessários para implementar o PlayMate em um jogo existente (que tenha nada de atividade fisica) é menor do que desenvolver um jogo ativo
+ do zero.
+-para avaliar o PlayMate, aplicaram ele num jogo open-source chamado Neverball, e avaliaram o jogo (modificado).
+-Neverball:
+    -jogador tem que navegar uma bola por um labirinto, coletando moedas para liberar o final da fase, em um limite de tempo.
+    -jogador inclina a superficie do mapa com o controle, para a bola rolar para a direção desejada.
+    -usaram os primeiros 16 niveis, supostamente para jogadores inexperientes. Não alteraram o desenho (layout, moedas, obstáculos) dos niveis.
+    -dois motivadores in-game usados:
+        -motivador direto (DM): diminuiram o tempo limite para completar os niveis, mostrando ao jogador que ele poderia ganhar tempo extra para completá-los
+                           fazendo uma atividade fisica (pular)
+        -motivador indireto (IM): introduziram um oponente AI que vai pegando moedas também (e a UI mostra o estado dele). Conjecturam que a aspiração do jogador
+                             de vencer seu oponente o motivará a buscar tempo extra (por atividade física) para poder adquirir mais moedas.
+    -usaram um acelerometro wifi no corpo do jogador como interface de atividade para reconhecer pulos. Cada pulo dava +1 sec de tempo.
+    -jogadores podam pausar e resumir o jogo em qualquer momento para que não fosse dificil manipular a bola e pular ao mesmo tempo. 
+     podem ganhar tempo durante pause, e a interface mostra o resultado em tempo real - assim o jogador pode decidir sem problema quando parar de pular e voltar ao jogo.
+-avaliação:
+    -135 participantes, crianças de 9 a 12 anos, voluntárias, sem experiência prévia com Neverball ou problemas médicos limitantes.
+    -3 grupos de 45 usuários, 1 sem nada (jogo original - grupo base BL), outro com o motivador indireto (IM), e outro com o motivador direto (DM).
+    -todas crianças (até no BL) estavam equipadas com o acelerometro, e sabiam que um pulo daria +1sec de tempo extra.
+    -crianças jogaram 3 niveis introdutórios, depois receberam o acelerometro, e tiveram uma sessão de 20min de jogo.
+    -rodaram questionários antes, durante, depois, e um outro para os pais sobre atitude em relação a jogos que motivam atividade.
+    -avaliação focou em atividade fisica realizada e diversão do jogador.
+    -para a avaliação, jogadores só podiam pular enquanto o jogo estivesse pausado.
+    -resultados:
+        -atividade fisica: BL fez X pulos em média, IM fez Y=~2X pulos, DM fez 5Y pulos. Tempo gasto jogando ou em atividade (jogo pausado -> pulando) foi similar.
+        -niveis completados: BL em média 10.x, IM e DM em média 8.x
+        -moedas coletadas: diferença não foi estatisticamente significativa, mas o IM em geral pegou mais moedas que o BL e DM, e o BL pouco a mais (quando isso) que o DM.
+        -percepção de atividade realizada: BL e IM em sua maior parte perceberam a maior parte da sessão de jogo como atividade sedentária. DM percebeu a sessão de jogo 
+         balanceada entre sedentário e atividade fisica, tendendo a sedentário. Indica que DMs perceberam que o jogo (atividade sedentária) é mais importante que a
+         atividade fisica, o que é bom pela perspectiva de jogo/jogar.
+        -apreciação: enquanto jogadores corretamente relataram percepção de atividade realizada, nenhum relatou um decréscimo em apreciação do jogo por realizar 
+         atividade fisica. Reportaram que apreciação foi bem alta em todos grupos, sem muita diferença.
+        -garotas pularam mais que garotos
+        -dividindo cada grupo em 3 subgrupos de abilidade com o jogo: alta, média e baixa, definido por um play-test antes da sessão de avaliação (BL,IM,DM), 
+         os com baixa abilidade pularam bem mais que os com média, que pularam mais que os com alta abilidade.
+        -jogadores apreciaram mais o jogo quanto mais próxima de suas habilidades a dificuldade estava (relativo a teoria de flow).
+    -no geral:
+        -IM motivou os jogadores a pegar mais moedas para vencer o oponente, ocasionalmente fazendo alguns pulos para ter tempo de pegar mais moedas. Também, como o limite
+         de tempo não foi alterado, eles tinham bastante tempo normalmente.
+        -DM motivou os jogadores a fazerem bem mais atividade fisica para conseguir pegar moedas suficientes para completar o nivel (atingiu o propósito).
+-com a avaliação anterior, notaram que seria melhor se o jogo se adaptasse para as caracteristicas do jogador, para incentivar todos grupos a terem a mesma
+ quantidade de atividade fisica. Apresentam 2 técnicas para isso, ambas com o intuito de aumentar/balancear atividade fisica entre os grupos, e manter
+ a apreciação com o jogo:
+    -Recompensa Adaptada: no contexto de neverball, adaptar a recompensa da atividade fisica para a caracteristica do jogador. Por exemplo, jogador mais experiente
+     receber menos tempo com 1 pulo, para ter que pular mais.
+    -Dificuldade personalizada: muda a dificuldade do jogo de acordo com o jogador. No caso de Neverball, muda o tempo limite padrão para terminar um level
+     de acordo com habilidade do jogador e tempo para completar de jogadores similares.
+-avaliação v2 - neverball com técnicas adaptivas:
+    -90 participantes, crianças de 10 a 12 anos, voluntárias, sem experiência anterior com o jogo (não participaram da outra avaliação)
+    -quase tudo igual a avaliação anterior...
+    -2 grupos de 45: um com recompensa adaptada (TR), outro com dificuldade personalizada (PD). Baseline foi o grupo DM anterior.
+    -resultado:
+        -TR: recompensa adaptada ajudou a balancear a quantidade de atividade fisica realizada entre os 3 grupos de habilidade. Não equalizou elas, mas
+         ficou bem mais balanceado.
+        -PD: resultados mistos, para niveis faceis aumentou a dificuldade (pularam mais), para niveis dificeis diminuiu ela. Isso não era exatamente o desejado...
+         mas não mudou a apreciação com o jogo.
+-avaliação com os pais: eles reportaram que deixariam as crianças jogarem por mais tempo e aumentariam o gasto com jogos e acessórios se os jogos
+ incorporassem os aspectos de atividade fisica. Implica que os pais aceitam mais o design de PlayMate ao de um jogo usual.
+-limitações:
+    -beneficios a saude no longo termo: sessões de avaliação foram curtas, e enquanto o pouco de atividade fisica é melhor que nada, não dá pra afirmar que isso
+     vai melhorar a saúde do usuário ao realmente levá-o a mudar seu hábito para se exercitar mais comumente (até fora do jogo).
+    -Atividade relacionada com o jogo: no neverball, o ato de pular não tinha nenhuma relação com uma ação similar no jogo. Algo assim poderia melhorar a jogabilidade.
+    -ampla aplicabilidade: o IM não foi muito util como motivador. Analisar e escolher um motivador adequado ("forte") melhora resultados.
+    -interface de atividade: o dispositivo, mesmo que seja barato e simples, ainda é outro dispositivo que tem que ser adquirido, mantido e usado. Usar coisas mais simples
+     ou comuns ao usuário (como kinect no xbox, wii remote no wii, ou sensores de um smartphone) simplificaria o processo.
+    -balanceamento entre atividade fisica e apreciação com o jogo.
+    -transferência comercial: grandes companias de jogos aplicarem mais essse design em seus jogos, dado que normalmente jogos são fechados a modificações externas, as
+     próprias empresas seriam as unicas capazes de implementar isso (PlayMate) em seus jogos. E mostraram como isso pode trazer beneficios.
+-Run, Tradie Run!:
+    -novo jogo que desenvolveram, para tentar resolver algumas das limitações notadas e cubrir uma base de usuários maior (facilitar avaliação em larga escala).
+    -jogo pra smartphone, personagem anda por uma cidade virtual para chegar em pontos especificos e resolver mini-problemas. Tempo limite para resolver tudo, quando acaba game over.
+     ganha tempo terminando os minijogos. Motiva atividade fisica na forma de ganhar pontos para comprar power-ups.
+    -podem ganhar pontos por atividades (pular e andar/correr) dentro e fora do jogo.
+-final das contas, conseguiram mostrar que o PlayMate funciona - motiva atividade fisica sem piorar a apreciação do jogo. Também mostraram 2 técnicas para o jogo se adaptar ao
+ jogador e balancear quantidade de atividade fisica entre grupos diferentes, assim como mostraram limitações do design e outro exemplo para tentar solucionar algumas.
 -
 PROBLEMAS:
+-muito longo (29 páginas), e não segue o padrão de formatação de artigos (2 colunas e tal) mas não sei se esse ultimo é um problema...
+-"This approach is novel in that it leverages the enjoyable properties of playing to alter the nature of the activity and include bursts of physical 
+ activity rather than seeking to reduce the time spent gaming.":  veja isso direito, acho que essa abordagem não é nova não (pra algo feito em 2012)
+-página 29, seção 8, terceira linha (da seção): typo - "player" e era pra ser 'play'.
 -
+
 
 #####################################################################################################################################################
 ##
