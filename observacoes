@@ -498,7 +498,7 @@ CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
  jogador e balancear quantidade de atividade fisica entre grupos diferentes, assim como mostraram limitações do design e outro exemplo para tentar solucionar algumas.
 -
 PROBLEMAS:
--muito longo (29 páginas), e não segue o padrão de formatação de artigos (2 colunas e tal) mas não sei se esse ultimo é um problema...
+-muito longo (40+ páginas), e não segue o padrão de formatação de artigos (2 colunas e tal) mas não sei se esse ultimo é um problema...
 -"This approach is novel in that it leverages the enjoyable properties of playing to alter the nature of the activity and include bursts of physical 
  activity rather than seeking to reduce the time spent gaming.":  veja isso direito, acho que essa abordagem não é nova não (pra algo feito em 2012)
 -página 29, seção 8, terceira linha (da seção): typo - "player" e era pra ser 'play'.
@@ -507,14 +507,51 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 8
+##  4 Design Themes for Skateboarding
 ##
 #####################################################################################################################################################
 OBJETIVOS:
--
+-Notam que enquanto maioria dos esportes extremos (e atletas deles) se focam em performance atlética (nadar mais rápido, pular mais, etc), existem aqueles 
+ que se focam na experiência de fazer truques (como o skateboarding).
+-querem contribuir para a área de desenhar tecnologias interativas para esportes (ou atletas) que focam na experiencia de realizar truques, pois existem
+ muito pouco trabalho nessa área (ao contrário da de performance atlética).
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
--
+-processo de tentar repetidamente até conseguir realizar um truque é uma experiência forte para o skatista, e normalmente é a principal motivação 
+ deles.
+-inspirados por 2 eventos que davam feedback pro público (e skatista?) sobre os truques que eles faziam, sem afetar a experiência em si, por sensores.
+ Então eles querem suportar a experiência de skateboarding com feedback, sem afetá-la e celebrando o principal: fazer truques.
+-acreditam que para suportar a experiência de fazer truques, um jeito é suportar a emoção chave do processo, que ocorre logo depois que um truque
+ foi feito/tentado.
+-(de referencia) feedback do ambiente é importante pro skatista perceber o que está acontecendo, e ele tem 3 formas principais de feedback:
+ visual, sonoro, e tátil (haptic).
+-skatistas gostam de rever a experiencia de fazer os truques
+-criaram 12 protótipos básicos de feedback interativo, 3-5 para cada uma das 3 modalidades de feedback, e um skatista experiente testou eles (um dos autores).
+-metodologia: auto-etnografia
+    -forma de narrativa pessoal autobiográfica que explora a experiência do autor da vida (ou nesse caso, de skateboarding).
+    -um dos autores é o próprio skatista que testou os protótipos.
+    -vantagens:
+        -permite total descrição de uma experiência, já que nada é perdido na comunicação entre participante e pesquisador.
+        -permite iterações rápidas de design
+        -pesquisas indicam que experiências corpóreas (como skateboarding) são melhor entendidas passando por elas você mesmo.
+        -alguns protótipos são potencialmente perigosos (mantendo qualidade de extremo do esporte), e assim eles só comprometiam a segurança deles mesmos.
+-testou cada protótipo por 20 minutos, filmaram sessões, e tomaram notas nos intervalos. Também refletiram sobre sessões e discutiram elas com
+ outros skatistas e pesquisadores.
+-formaram 4 temas de design para skateboarding:
+    -Localização de feedback em relação ao corpo do skatista: skatistas fazem movimentos amplos com o corpo até depois dos truques, como parte da 
+     celebração por exemplo. Se feedback estiver num lugar que forçe ele a se mover (por exemplo, imagem de projetor), irá entrar em conflito com esses
+     movimentos pós-truques, que são parte importante da experiência.
+    -Timing de feedback em relação com os picos emocionais depois de truques: feedback instantaneo ou com um delay depois de terminar o truque, e se isso
+     persiste ao longo do tempo, podem afetar as emoções, aumentando ou diminuindo-as, ou até criando picos novos. Exemplo do cara: depois de tentativa
+     bem sucedida, ver nuancias do truque em replays visuais deu a ele uma sensação de orgulho e outro pico emocional, enquanto sua sensação foi intensificada
+     em tentativas falhas com feedback sonoro instantaneo, ou textura do chão diferente.
+    -Aspectos do Truque enfatizados pelo feedback: considerar que aspectos de um truque o feedback pode levar à atenção do skatista, pois diferentes aspectos
+     tem importâncias diferentes na experiência e pode intensificar sentimentos especificos de realização.
+    -Estética apropriada do feedback (aesthetic fittingness of feedback): estética do feedback adequada ao movimento feito contribui positivamente para a
+     experiência do truque. Exemplo, visualização suave/fluida de um truque certo, textura irregular do chão para truques falhados.
 PROBLEMAS:
+-artigo bem curto (4 páginas, poucas referencias)
+-meio estranho só ele ter testado, ainda mais pq experiências pessoais são subjetivas
+-não ficou claro se o propósito era melhorar a experiencia do skatista ou da audiência, ou ambos
 -
 
 #####################################################################################################################################################
