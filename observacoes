@@ -556,13 +556,98 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 9
+##  ExerLink - Enabling Pervasive Social Exergames with Heterogeneous Exercise Devices
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-acreditam que pervasive social exergames (exergames com elementos sociais/multiplayer e que podem ser jogados em qualquer lugar/são comuns) com diferentes
+ modalidades de exercicios fisico vai permitir interações sociais realmente ubiquas/
+-exploram a possibilidade de criar um exergame social com suporte a vários dispositivos de exercício diferentes como formas de input para o jogo.
+-mecanismos de balanceamento para pessoas com características e dispositivos diferentes conseguirem jogar juntas de forma justa.
+-mostrar considerações e diretrizes de design obtidas pelo desenvolvimento de 4 controles de exercicio para jogos.
+-demonstrar como isso pode funcionar, testando com um jogo e analisando os padrões unicos de interação social nesse exemplo.
+-se focam em RIAs - Repetitive Individual Aerobic exercises: exercicio fisico simples, individual e repetitivo. Comum e simples de pessoas fazerem,
+ e traz bons beneficios a saude
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
--
+-Considerações de design do ExerLink: diferenças especificas de exercicio e de jogador, latência de rede, modalidades de interação (social), histórico
+ de exercicio feito.
+-para proporcionar um jogo justo, o ExerLink tem que considerar: intensidades e métricas diferentes de dispositivos de exercicio diferentes, diferenças
+ nas intensidades de exercicio que um usuário prefere, e diferenças no delay da rede entre os usuários quando jogam pela internet.
+    -para converter intensidade de exercicio em input do jogo: 
+        -podem usar ambas estratégias de conversão - escala (range de intensidade -> range de input 1D, padrão que usaram) ou de ajuste (ranges de 
+         intensidade implicam estados de jogo diferentes, como em cruise, acelerando, e blabla).
+        -Também usam um mapeiamento por-exercicio para cada jogador (por meio de uma sessão de treinamento com tal dispositivo). Esses mapeiamentos 
+         levam em consideração facilidade de controle, movimento consistente (na curva de intensidade de um exercicio há pontos de inflexão que levam
+         a pessoa a alterar o modo de exercicio, como passar de andando a correndo numa esteira) e faixa marginal (quando passa de um ponto de inflexão,
+         é melhor que haja uma resposta do jogo ao jogador para indicar que ele passou da intensidade preferida, sem causar movimentos abruptos no jogo).
+         Eles analizam distribuição de intensidade "leve", "média" e "alta" do jogador e definem um interval preferido de intensidade sem pontos de inflexão
+         que correspondem a 20->80% do input do jogo, e faixas marginais nos 20% restantes antes e depois dessa faixa.
+    -balanceando heterogeneidade: 
+        -usaram um jogo chamado SwanBoat para ilustrar isso. Nesse jogo, uma dupla controla um barco a remo, onde o input 1D de cada jogador corresponde
+         a um remo. Ambos na mesma intensidade, ele vai reto, um mais intenso que o outro, o barco vira num angulo proporcional à diferença de intensidade.
+         Isso implica que deve haver colaboração sincronizada entre jogadores, e eles podem sentir facilmente falta de balanceamento entre eles.
+        -usam uma heurística baseada em dados da fase de treinamento dos jogadores para criar fatores de normalização de cada jogador, para balanceá-los.
+    -balanceando variação do delay de rede: jogo se comunica com um servidor autoritário que mantém o estado do jogo. Ele processa mensagems de ações dos
+     clientes e propaga mensagens de update do estado do jogo para todos usuários. Para compensar delay diferente entre cada jogador, usam serviço de 
+     Fair-Ordering (artigo referenciado) para ordenar as mensagems a ser enviadas (por exemplo, manda antes para o cara com maior delay).
+-Protótipos de controles de exercicio para jogos.
+    -usaram processo iterativo de design para desenvolver os protótipos, com 21 participantes (20-35 anos) pagos. 3 testes feito em 8 meses, onde os
+     participantes podiam usar os controles livremente, e depois eram entrevistados para respostas e comentários.
+    -HULA HOOP (controle portátil...?):
+        -primeiro tentaram adicionar um acelerômetro e transmissor bluetooth para um hula-hoop, e o jogo recebia dados do acelerometro e calculava
+         os dados necessários. Mas usuários reportaram que a responsividade era ruim...
+        -adaptaram adicionando 8 sensores na circunferência interna do hoop, e usaram os dados desses sensores (contato entre o hoop e o jogador)
+         para determinar RPM.
+    -Corda de Pulo (portátil):
+        -alterando o grip da corda, primeiro tentaram adicionar um 'contra-tronco' internamente, que rotacionava com a corda, e continha um dente para
+         pressionar um botão. Porém não só a responsividade era horrível, como esse método mecânico era propenso a quebrar (botão interno quebrava).
+        -adaptaram fazendo o tronco rotacionar um disco com aberturas, para deixar ou não a luz IR de um led ser 'visto' por um sensor. Isso aumentou
+         bastante a taxa de amostragem do controle e não há problemas mecanicos decorrentes do uso.
+    -Bicicleta estacionária:
+        -testaram bicicletas com sensores magnéticos de rotação na flywheel (?) e no eixo do pedal. Decidiram usar a do eixo do pedal pois a flywheel
+         continuava rotacionando por um tempo depois do usuário parar de pedalar, o que levaria à dados errados da cadência de rotação do jogador.
+    -Esteira estacionária interativa:
+        -esteira adapta a velocidade de acordo com o movimento do usuário, ao contrário de esteiras usuais que usam velocidades pré-definidas.
+        -usa sensor ultrassônico para determinar distância do usuário ao console da esteira, indicando movimento do jogador (mais perto->mais rápido).
+        -como essencialmente funciona de forma diferente de uma esteira comum, requer um tempo maior para os usuários se acostumarem com o dispositivo.
+    -AVALIAÇÃO:
+        -20 participantes (10H/10M), 18-34 anos, de uma universidade
+        -desenvolveram programa de teste em Unity - jogador tinha que mover um ponto num segmento de reta que corresponde à intensidade de exercicio.
+         ele tem que ir para o ponto de intensidade alta preferida (80%), e apertar um botão wifi, e depois voltar para intensidade baixa preferida (20%).
+        -dividiram participantes em 4 grupos, que testou cada dispositivo em ordens diferentes.
+        -fizeram, para cada dispositivo, 10 blocos de 10 testes (5 pra acelerar e chegar em 80%, 5 pro 20%).
+        -mediram tempos de movimento e erros na distância do alvo para o click do usuário
+        -tiveram sessão de aquecimento antes, para ver o que fazer, aprender a usar o dispositivo, e treinar seus intervalos preferidos de intensidade.
+        -resultados:
+            -houve um tempo de aprendizado inicial somente com a esteira
+            -tempos de movimentos diferentes bicicleta>corda>esteira>hulaHoop
+            -throughput e SD de erros... WAT?
+            -notaram que é mais fácil desacelerar o exercicio do que acelerar (duh), e isso influencia as taxas de (de)aceleração para balanceamento.
+            -aparentemente mulheres performaram melhor. No hula-hoop, elas erraram bem menos que os homens. E homens tinham intervalos preferidos
+             de intensidade geralmente maiores que as mulheres
+-Estudos de caso com Swan Boat:
+    -um para avaliar se o jogo é balanceado, outro para avaliar as interações sociais entre jogadores.
+    -em ambos testaram com os 4 dispositivos que prototiparam, e tb fizeram teste de jogo remoto 
+    -Estudo 1: Balanceamento
+        -20 participantes pagos, 20-29 anos, universitarios, não participaram dos outros estudos, tiveram sessão de 1hr p/ treinamento antes.
+        -duplas com dispositivos diferentes tiveram desempenho equivalente as duplas com dispositivos iguais.
+        -contrário aos reportes dos participantes, eles acreditam que tipo de exercicio não é um grande fator que influencia o resultado do jogo.
+        -seleção de jogos com 'desvantagem' para o jogo era diferente entre os participantes, o que indica que a percepção de injustiça dos 
+         jogadores depende da habilidade deles com cada exercicio.
+        -maioria achou que o tipo de exercicio do parceiro não era um grande fator que influencia o resultado
+    -Estudo 2: Interações Sociais
+        -16 estudantes entre 18-33 anos, pagos. Não participaram dos outros estudos, e foi sugerido que entrassem no estudo com amigos/familiares,
+         justamente para verem interação social entre eles. Tb tiveram sessão de 1 hora de treinamento.
+        -maioria achou que ExerLink facilitou a comunicação remota entre times, sem nenhum problema.
+        -jogadores conversavam mais sobre o jogo (vai pra direita, etc) do que sobre outras coisas, e conversaram mais quando remotamente do que enquanto
+         estavam juntos na mesma sala.
+    -descobriram que ExerLink tem potencial para ser um meio de socialização entre pessoas.
+    -não pesquisaram suficientemente sobre efeito de delay da rede, já que o principal era o uso de dispositivos diferentes.
+    -notam que até então, quase nenhum exergame focou em exercicios diferentes simultaneamente
+    -também teve pouco esforço em analisar a usabilidade de controles de exergames em actual game-play
+    -existem alguns jogos (não exergames) que suportam multiplos controles diferentes, mas nenhum fez algo para balancear uso entre jogadores diferentes
+    -
 PROBLEMAS:
 -
 
