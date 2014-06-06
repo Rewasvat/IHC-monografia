@@ -649,19 +649,64 @@ CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
     -existem alguns jogos (não exergames) que suportam multiplos controles diferentes, mas nenhum fez algo para balancear uso entre jogadores diferentes
     -
 PROBLEMAS:
--
+-?
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 10
+##  Design Requirements for Technologies that Encourage Physical Activity
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-desenvolver uma aplicação que encoraje atividade fisica entre amigos
+-definir requerimentos de design para tecnologias que encorajem atividade fisica
+-pesquisar como tecnologia pode ajudar a incentivar pessoas a manter atividade fisica para reduzir problemas decorrentes de obesidade.
+-interessados em atividade fisica oportunistica (qdo pessoa altera algo no cotidiano para realizar um pouco mais de exercicio, como ir andando em vez de carro),
+ e exercício estruturado (qdo pessoa mantem frequência cardíaca elevada por um período longo, como ir correr ou nadar por um tempo).
+-acreditam que dispositivos móveis como smartphones podem dar informação ao usuário no lugar e hora certos, e encorajar atividade oportunistica.
+-testar essas coisas em um estudo piloto de 3 semanas para adquirir informação para o desenvolvimento de um novo aplicativo para um estudo longitudinal (grande periodo de tempo)
+ para examinar efeitos no comportamento das pessoas
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-para fazer o estudo piloto de 3 semanas, desenvolveram um aplicativo mobile que serve como um jornal/diário de atividade fisica do usuário.
+-testaram só com mulheres que queriam ter vidas mais saudáveis e perder peso.
+-Houston:
+    -usaram um pedômetro com bons reviews e boa precisão, e escolheram um celular nokia para desenvolver o programa pela facilidade de prototipação nele.
+    -esperam que versões finais do programa funcione com qualquer pedômetro/celular
+    -aplicativo conta número de passos dados pelo usuário e mantém um log disso.
+    -também há o compartilhamento dessa informação entre um grupo de amigos, com uma 'marca de objetivo' de passos a dar por dia.
+    -fizeram 3 versões do app: básica, pessoal e compartilhada. Participantes testaram a básica por 1 semana para se familiarizar com a interface do app.
+     depois 2 grupos de participantes testaram a compartilhada, e 1 grupo testou a pessoal.
+    -básica só contava os passos e deixava o usuário editar meta de passos, e ver contagens dos ultimos 7 dias. Tb encorajava usuário a ser ativo com o uso
+     do app, lembrando-o de setar metas.
+    -pessoal era a básica melhorada, com funções de jornal/diário mesmo (como comentários), e reconhecimento por atingir metas.
+    -compartilhada era a pessoal mais funcionalidades sociais: podiam compartilhar contagem, metas e comentários com amigos e tal.
+-Avaliação do Houston:
+    -3 semanas, com 3 grupos de 4-5 mulheres entre 28-42 anos. Grupos usualmente se conheciam (com poucas exceções) e eram amigas. 
+    -elas não iam viajar nesse período, queriam aumentar seu nive de atividade fisica e prevenir ganho ou até perder peso. testaram o app em suas vidas cotidianas.
+    -foram pagas qto mais participassem das entrevistas e usassem o app (colocar a contagem de passos todos dias)
+    -fatores como duração 'curta' do estudo, eventos imprevistos, limitação do app não estar no celular pessoal dos participantes, e o fato que carregar/usar o 
+     pedômetro invariavelmente afeta comportamento preveniram eles de avaliar efeito de uso do aplicativo no nivel de atividade fisica dos participantes,
+     porém seu propósito maior era definir os requerimentos de design baseados no estudo.
+    -notaram que participantes com a versão compartilhada eram mais prováveis a atingir a meta de passos por dia.
+    -atividade aumentou do uso da versão básica para as outras, mas sem significância estatistica sobre qual grupo.
+    -e a partir da avaliação do estudo, descreveram 4 requerimentos de design de tecnologia que incentiva atividade fisica.
+-Requerimentos de design de tecnologias que incentivam atividade fisica:
+    -Dar crédito aos usuários por suas atividades: é bom dar cŕedito aos usuários pelas atividades realizadas, mas tomar cuidado com as limitações do
+     dispositivo que mede a atividade. O pedometro por exemplo muitas vezes dava resultados erroneos pois ele não consegue detectar várias atividades
+     como andar de bicicleta, nadar, etc. Ele também não dava informação suficiente sobre o nível de atividade do usuário, mesmo nas vezes que a contagem
+     estava adequada, por exemplo, pq só andou X esse dia?  Comentários dos usuários ajudaram em parte isso, mas pode ser melhorado.
+    -Proporcionar consciência/conhecimento pessoal do nivel de atividade: histórico de comportamento/atividade no passado, estado atual, desempenho
+     do nivel de atividade
+    -Suportar influência social: pressão social (vendo estado dos colegas pressionava elas a fazer mais), suporte social (incentivo e reconhecimento dos colegas)
+     e comunicação.
+    -Considerar as restrições práticas do estilo de vida do usuário: tomar cuidado com o dia-a-dia do usuário. No caso dessas mulheres, muitas reclamaram
+     do combo pedometro+celular, pois eram grandes/feios, atraiam atenção de outras pessoas e muitas vezes era dificil ou impossível usá-los dependendo da roupa.
+-desafios futuros: setar metas razoáveis para cada um ou para o grupo, e incentivar um aumento gradual sustentável de atividade.
+-Notam que existem várias tecnologias que tentam incentivar exercicio (como outros equipamentos e exergames), mas nivel de obesidade continua crescendo.
+ Notam tb que das tecnologias relacionadas que eles pesquisaram, nenhuma implementa os 4 requerimentos de design que eles levantaram.
 -
 PROBLEMAS:
--
+-???
 
 #####################################################################################################################################################
 ##
