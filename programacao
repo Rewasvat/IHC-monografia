@@ -1,4 +1,4 @@
-5 artigos
+4 artigos
 slides (S)
 monografia (M)
 
@@ -9,7 +9,7 @@ terça ou quinta - 1
 
 ----------------
 
--1~07: 1
+-1~07: 0
 -8~14: 2 (AnaliseP3 terça, IHC P2 quarta, resumo IHC)
     10: P3 analise
     11: P2 IHC
@@ -31,7 +31,7 @@ terça ou quinta - 1
 [OK] designRequirementsTechnologiesEncouragePhysicalActivity .. 2348k
 [OK] designThemesForSkateboarding  ............................ 2894k *
 [OK] exerLink  ................................................ 2790k
-[--] exploratoryStudyNonVisualMobileGameInterfaces ............. 189k
+[OK] exploratoryStudyNonVisualMobileGameInterfaces ............. 189k
 [--] exploringAudioStorytellingInMobileExergames ............... 906k
 [--] gameDesignPrinciplesFitnessApplications  .................. 791k
 [--] healthifyingExergames  ................................... 1294k

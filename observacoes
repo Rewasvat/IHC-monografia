@@ -710,14 +710,82 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 11
+##  An exploratory study on non-visual mobile phone interfaces for games
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-aprender sobre os desafios e oportunidades em interfaces não-visuais para jogos de dispositivos móveis.
+-usar principios de engenharia semiótica para desenhar um jogo mobile que deficientes visuais possam jogar e também sejam uma experiência diferente
+ e boa para usuários com visão normal
+>só explicando: engenharia semiótica é uma teoria de IHC com fundações semióticas vindo principalmente do trabalho de 2 caras lá... (é, não acho que ajudou muito) 
+ maior principio de engenharia semiótica é que o designer na realidade se comunica com o usuário pela interface do sistema, que serve como um proxy.
+ Então, quando um designer está criando uma interface, ele está decidindo que tipo de comunicação ele terá com o usuário - que modos, media e propósitos.
+-ver métodos e problemas sobre isso para pesquisa futura
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-notam que pela pesquisa deles, são o primeiro artigo a usar principios de engenharia semiótica para design de jogos mobile.
+-notam pesquisa relacionada: existe pesquisa com feedback auditivo e tátil, para web e programas, e alguns jogos com principal fonte de feedback ao
+ usuário sendo o som. Muitos dos quais usam principios de semiótica
+-Audio Flashlight:
+    -jogo que desenvolveram para usar num estudo piloto empirico para este artigo
+    -jogador tem que navegar uma sala escura com obstáculos para achar um tesouro, usando a audio flashlight como uma forma de radar sonoro que guia pro tesouro
+    -idéia era comunicar toda a experiência do jogo sem nada visual. Instruções de como jogar e inicialização foram dadas pelo designer em pessoa
+     e não eram foco da pesquisa.
+    -identificaram vários sinais que precisavam mostrar ao usuário, como: começou jogo, atingiu objetivo, perto de obstáculo, andando, fazendo nada, etc.
+    -Como os sinais serão não-visuais, o sistema de sinais tem que ser baseados em convenções culturais usualmente associadas com as mensagens que o 
+     jogo precisa comunicar. Caso contrário, os usuário terão que aprender outra linguagen de significados pra jogar, o que será uma fonte de problemas
+     de usabilidade.
+    -usaram barulho de porta abrindo pra começar jogo, porta fechando pra saindo, aplausos pra atingiu objetivo. E diferentes ritmos e volumes de música
+     para aproximação do tesouro (ritmo +rápido e +volume qto + perto). Barulho de passos para andando, silêncio para parado.
+    -gestos para input do jogador: rotaciona o celular para se movimentar frente/trás/esquerda/direita (tela pra cima = parado). Tela pra baixo = sair do jogo.
+    -usaram gestos como input por ser uma forma mais natural que apertar botões - mais diretas e esperam que mais simples de usar.
+    -usam feedback tátil (vibração) para colisão com obstáculos: longos/fortes com paredes externas, fracos/curtos para obstáculos internos. Vibração associa 
+     com a idéia de colisão fisíca.
+    -então feedback auditivo e tátil, e input gestual foram escolhidos desse jeito por representar as metáforas mais fortes para tais propósitos.
+-Avaliação:
+    -estudo piloto empirico com 5 participantes, 3 normais (2 gamers, 1 casual), com deficiência visual severa (DVS, joga um pouco no PC, mobile não pq não tem acessabilidade,
+     e outro cego (joga poucos jogos simples em PC). Nenhum nunca jogou um jogo não-visual.
+    -participantes não tinham tempo limite para a sessão de testar o jogo. Duração média foi quase 3min, exceto pelo cego que levou bem mais tempo.
+    -todos jogadores acharam bem interessante sua idéia não convencional.
+    -todos acharam o tesouro, exceto o cego. Os 2 normais gamers acharam mais rápido, e o DVS achou o tesouro mais rápido que o normal casual. 
+    -notaram que o som dos passos foi crucial para os jogadores perceberem que estavam se movendo, já que com a interface gestual, o estado de idle não é tão
+     claro como com botões.
+    -quando perto do tesouro, musica era propositalmente mais alta que os passos, porém os jogadores disseram ficar confusos com isso. O que indica que os passos
+     são um sistema primário de feedback aos usuários.
+    -Reportaram que a música ajudou a criar tensão e excitação no jogo, como esperado. E o radar auditivo foi útil para achar o tesouro. Porém um problema que o cego
+     encontrou foi que ele ficava parado por longos períodos de tempo, e consequentemente a música sendo tocada recomeçava, tendo um gap auditivo significante. Ele
+     confundiu isso com sinal de algum evento do jogo (o que não era)
+    -Reportaram que o jogo era bem imersivo, mesmo sem gráficos. Um até falou que era tanto quanto um jogo graphics-intensive.
+    -Todos jogadores conseguiram usar a vibração para desviar de obstáculos, exceto o cego. Ele teve problemas com esse feedback pois o som causado pelo
+     motor de vibração confundia ele, achando que era algum outro evento de jogo. Notaram tb que as vezes o sistema produzia vibrações rapidamente, o que
+     confundiu alguns jogadores.
+    -Reportaram que controle gestual foi bem conveniente para esse tipo de jogo. O cego especialmente gostou dessa forma de input, pois era bem natural pra
+     ele, enquanto que se fossem botões ele teria problema para memorizar localização dos botões que fazem o que, pois keypads atuais (da época) são
+     dificeis pra identificar teclas.
+    -Reportaram que o feedback foi adequado. Mas eles se confundiam com começo/final de jogo pois não ouviam o barulho (portas abrindo/fechando). Como não
+     sabiam qual era o som de achou o tesouro, alguns perguntaram se tinham achado-o quando a música atingiu o pico.
+    -E o jogo foi desenhado pra recomeçar (e retocar barulho de porta abrindo) qdo ganhasse. Mas alguns participantes pareciam não saber o que fazer nesse
+     caso, como se tivessem esquecido das instruções
+-então feedback auditivo tem que ser cuidadosamente desenhado, tomando cuidado para não sobrecarregar o usuário (ainda mais critico para cegos). Cuidado também
+ deve ser tomado com questões de privacidade e dificuldade de jogar jogos assim em espaços públicos com muito ruido sonoro. (não testaram/pesquisaram isso)
+-Feedback tátil também abre possibilidades interessantes novas para enriquecer o jogo, mas cuidado deve ser tomado também para não sobrecarregar sentido do usuário.
+-jogo baseado em feedback não-visual abre oportunidade para a imaginação do jogador, o que contribui com seu engajamento com o jogo.
+-Direções para trabalhos futuros identificadas:
+    -Fazer testes baseados em heurísticas
+    -Testar jogo com mais participantes com deficiências visuais e diferentes formas delas, assim como atitudes diferentes em relação a jogos.
+    -Testar o jogo com mais dificuldade, como configurações espaciais mais elaboradas, para dificultar encontrar o tesouro.
+    -Adicionar objetos que podem interagir com o jogador, e descobrir como informação espacial integra com outros tipos de informação no jogo. Desenhar interfaces
+     adequadas para esse tipo de jogo provavelmente será um desafio dificil.
+    -Elaborar a interface gestual, com elementos significantes novos.
+    -Investigar como audição e toque junta-ou-separadamente afetam o senso de imersão e presença (percepção de estar no mundo virtual do jogo).
+    -Para pessoas normais, estudar similaridades e diferenças entre a imersão proporcionada por jogos auditivos a jogos graphics-intensive. Como
+     podemos aumentar imersão em um jogo auditivo? Como um jogo visual se beneficiaria de um design sonoro mais elaborado?
 -
 PROBLEMAS:
+-teste me pareceu bem fraco... testando só com 5 participantes, sendo que 3 eram normais e só um cego - que por sinal foi o que teve mais dificuldades
+ com o jogo, pois os designers não perceberam problemas que ele teria (como ouvir o motor de vibração).
+-podiam ter feito uma pesquisa mais elaborada, mesmo sendo que o propósito deles era descobrir métodos e problemas desse tópico para pesquisa futura.
+-como eles mesmos dizem, artigo deixa mais perguntas que respostas...
 -
 
 #####################################################################################################################################################
