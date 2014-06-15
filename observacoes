@@ -849,15 +849,41 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 13
+##  "Healthifying" Exergames: Improving Health Outcomes through Intentional Priming
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-propõe "Intentional Priming" como um caracteristica chave de design a ser explorada em exergames.
+-intentional priming (IP): <?> - ?
+    priming: efeito de memoria implicita em que exposição a um estimulo influencia a resposta a outro estimulo
+        dicionario: preparar, informar, instruir, aconselhar
+-focando em explorar o impacto de:
+    -priming para um exergame (intenção primária de usar o sistema como um jogo vs como exercicio)
+    -feedback de saude em (proporcionar um contador de caloria ou não) gasto de energia percebido, gasto de energia medido objetivamente, efeito positivo,
+     duração de uso em uma unica sessão para um adulto.
+   para melhor entender a influência desses fatores no uso de exergame em um laboratório para informar futuros estudos de uso no longo-termo.
+-hipotetizam que saúde/exercicio IP pode aumentar gasto de energia e aumentar duração de uma sessão.
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
+-trabalhos anteriores sugerem que alguns exergames conseguem chegar na intensidade de atividade necessária, mas não na duração necessária, com os jogos
+ não sendo mais jogados depois de algumas poucas semanas. Parte desse problema se dá ao fato que muitos desses jogos são vistos como uma ferramenta 
+ de fitness e não como um jogo (e portanto melhorando o elemento de jogo, jogabilidade/diversão, ajudaria isso).
+-estudo/avaliação:
+    -fizeram um estudo 2x2 sobre o tópico: intenção de jogar vs exercicio, e feedback de saúde ou não.
+    -usaram jogo Dance Central pra Kinect - a dança com o corpo da a intensidade de exercicio necessária, e o jogo tem um mod "workout", que mostra feedback
+     de saúde.
+-resultados do estudo:
+    -participantes viram o jogo de acordo com seu grupo de instrução: jogo ou exercicio. (alguns poucos viram como ambos)
+    -ao contrário da hipótese inicial, duração de uso do jogo (em uma sessão) foi maior para o grupo de exercicio.
+    -ao contrário da hipótese inicial, ter o feedback de saude na tela aparentemente não influenciou nada
+-resultados sugerem que o design de um exergame pode ser melhorado se inicialmente é posto enfase no em boas mecânicas de jogo (bom gameplay) que envolve exercicio,
+ que depois são complementadas com "healthifying" o jogo com estratégias como IP e feedback sobre saúde.
+ (ao contrário de muitos exergames usuais que pegam um exercicio e tentam gamificar ele colocando pontos, competição e outros elementos de jogo)
+    -ai conseguem mostrar que o exergame é tanto um jogo como exercicio, e isso pode ser melhor para incentivar o usuário pois é "2 passários com uma pedra":
+     ele vai se divertir e exercitar ao mesmo tempo
 -
 PROBLEMAS:
--
+>EU: não cheguei a ler esse direito...
 
 #####################################################################################################################################################
 ##
