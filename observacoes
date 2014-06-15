@@ -790,14 +790,61 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 12
+##  Smarther Phones for Healthier Lifestyles: An Adaptive Fitness Game
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-criar um jogo mobile que incentiva usuários a se exercitarem e se adapta à aptidão fisica e ao esforço atual do jogador.
+-querem isso pois maioria dos jogos de fitness são para PCs ou consoles para serem usados de forma "estática" dentro da casa, e consequentemente
+ não aproveitam os benefícios de ambientes abertos nem as capacidades persuasivas de dispositivos móveis (celulares).
+-e os jogos de fitness mobiles (em menor numero) usualmente não se adaptam ao usuário, o que pode limitar bastante sua eficiência.
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
--
+-Monsters & Gold:
+    -mede frequencia cardiaca baseado em um oximetro bluetooth na orelha do usuário
+    -usa GPS do celular pra determinar posição e velocidade
+    -baseado no conhecimento de exoerts (fisiologista de esportes (?) e treinador fisico profissional) o jogo tenta ajudar os usuários a atingir
+     os benefícios cardiovasculares adequadamente.
+    -usuários devem correr em sessões de 30-50min, divididas em 3 fases: aquecimento, exercicio e esfriamento(cooldown).
+    -jogo adapta para ajudar usuários atingir intensidade otimal para cada fase
+    -intensidade otimal dependende da frequência cardiaca máxima do jogador, o que varia bastante ainda mais com idade, e portanto isso tem que
+     se adaptar para cada jogador.
+    -jogo também adapta duração da sessão baseado na aptidão fisica 'global' do usuário, incluindo quantas vezes, duração e eficiência dos exercicios
+     de tal jogador nas ultimas semanas, além do esforço fisico atual.
+    -jogo mostra uma trilha virtual de mão unica, onde usuário encontra vários pontos de interesse: ouro, monstros, poções e escudos. Usuário tem que coletar ouro enquanto não
+     perde vida por causa dos monstros. Poção cura vida, escudo protege contra um monstro, uma única vez. Cada coisa tem tamanhos diferente - pequeno,
+     médio e grande (ouro grande = +ouro q médio, monstro grande = +dano, tamanho escudo->qual monstro protege contra).
+    -jogador tem que acelerar (ou manter velocidade) para pegar ouro antes que desapareça. Tem que desacelerar para não passar pelo monstro antes que
+     ele desapareça.
+    -jogo alterna entre 2 tarefas: PROC (proceed-on-trail, só continuar correndo), e ROAV (reach-or-avoid, tem que desacelerar ou acelerar pra alcançar
+     ou evitar um POI). Quando um ROAV começa, o POI tá a X de distância e leva Y secs de duração até sumir.
+    -jogo escolhe tipo, distancia e duração de ROAVs baseado no estado do jogo e jogador, de modo a propriciar beneficio cardiaco. Se tiver muito rápido,
+     vai aparecer monstro para jogador desacelerar. Se tiver devagar, aparece ouro de tal forma que eles tem que acelerar para pegar. Quanto mais perto
+     da intensidade otimal, mais ouro aparece, assim como poções e escudos. 
+    -em primeiro uso, jogo pergunta ao jogador duração de uma sessão de corrida do usuário, se ele faz isso. Depois disso, jogo vai aumentando ou diminuindo
+     as sessões de acordo com seu algoritmo de adaptação.
+    -jogo também usa audio para dar informações ao usuário, como um sistema de navegação de GPS ("monstro a Xmetros a frente, Y segundos", "corra mais rápido", etc)
+     porém usaram alto-falante em vez de fone-de-ouvido pq usuários ja tavam usando o oximetro na orelha. Isso pode levar a problemas de privacidade e
+     eles planejam mudar no futuro.
+-Avaliações
+    -inicial com 2 jogadores pra refinar design
+    -estudo de fato com 2 grupos de 8H/6M cada, um sendo pessoas de 24-49 anos, outro de 19-26.
+    -primeira avaliação:
+        -deixaram jogadores entenderem as regras do jogo sozinhos com o jogo
+        -em média, acharam que vários fatores (facilidade de uso, utilidade de audio/video, etc) tavam normais (4>3.x>3.5, escala 1-5)
+         e usuários iriam correr mais comumente se pudessem continuar usando o jogo.
+        -usuários entenderam quando que tinham que acelerar, mas não quando tinham que desacelerar.
+    -segunda avaliação:
+        -mudaram o jogo para poder desacelerar mais gradualmente para evitar monstros, e mais avisos sonoros/visuais para DESACELERAR
+        -fizeram em 2 partes - primeira não explicaram o jogo e perguntaram coisas sobre usabilidade/utilidade. segunda explicaram e perguntaram sobre
+         motivação, audio/video.
+        -fizeram uma avaliação mais extensiva, com mais perguntas e etc.
+        -resultados similares (talvez possivelmente um pouco melhores) que os anteriores, com a exceção que agora, em média, eles entenderam que tinham que desacelerar.
+        -usuários sugeriram que se jogado por muito tempo o jogo pode se tornar repetitivo, portanto pensar em jeitos de minimizar isso, com 'levels' diferentes,
+         design de POIs e tarefas diferentes, etc. Também sugeriram usar outros sons para algumas coisas, e mais informação na tela.
+        -
 PROBLEMAS:
+-não segue formato padrão, poucas referencias
 -
 
 #####################################################################################################################################################
