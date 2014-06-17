@@ -887,14 +887,53 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 14
+##  Exploring Audio Storytelling in Mobile Exergames to Affect the Perception of Physical Exercise
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-querem explorar o uso de feedback sonoro (narração de áudio) para fazer mobile exergames serem mais cativantes e divertidos. Usando feedback sonoro
+ como meio principal de feedback tem o benefício que o usuário não precisa olhar constantemente para a tela do celular enquanto joga/se exercita
+ em ambiente externo, o que é um perigo.
+-estudar se um jogo de tal forma é divertido para usuários e pode afetar positivamente a percepção de exercicio fisico.
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
--
+-Time:Runner
+    -mobile exergame que tenta melhorar a experiência de correr, provendo uma história interativa baseada em áudio e mundo virtual que reage às
+     ações do jogador
+    -tem um NPC 'remote operator' que faz o papel de 'personal trainer' de um jeito que segue a história. O papel desse NPC é monitorar as ações
+     do jogador e motivá-lo a continuar, dar instruções apropriadas dependendo do contexto para explicar interações do jogo a usuário, e narrar
+     a história enquanto ela progride.
+    -conjunto de sons (paisagem sonora): que indicam presença de NPCs, sons simbólicos (notificações como alarme, dano recebido, etc), e sons decorativos (musica ambiente)
+    -voz do remote operator é o som mais proeminente
+    -le velocidade do jogador com o GPS do smartphone, e jogo tenta manter o usuário dentro da velocidade relativa à dificuldade escolhida
+    -para resolver problema de pessoas diferentes necessitarem de quantidade/intensidade de exercicio diferentes, jogo tem 3 niveis de dificuldade.
+     (easy:pessoas que não se exercitam, médio: pessoas que correm moderadamente, dificil: pessoas que correm normalmente em condição fisica boa)
+    -jogo começa com tela/som introdutórios, cara erroneamente teleportou pra era de dinossauros, e tem que correr pra fugir de dinossauros enquanto o
+     operador remoto tenta ligar o sistema de emergência pra trazê-lo de volta.
+        -se usuário corre dentro do intervalo de velocidade (da dificuldade), ele ganha pontos a cada 0.1s, e mensagens de encorajamento do operador.
+        -se usuário corre mais rápido que o intervalo de velocidade, pontos não mudam, e ele perde o jogo se ficar nesse estado por 20s+, pq velocidade
+         alta tá fazendo com que o operador não consigue localizá-lo (e tem mensagem sonora avisando)
+        -se usuário corre mais devagar que o intervalo, pontos não mudam e ele recebe mensagem pra acelerar pra escapar de dinosauro. Se ficar assim
+         por alguns secs, é atacado pelo dinosauro, perde HP (escudo) e pontos. Se perder todo HP game over.
+-Avaliação de Time:Runner (user study)
+    -queriam: avaliar se o jogo é cativante e divertido para usuários com estilos de vida diferentes (em relação a atividades fisicas) e estudar a 
+     efetividade do jogo em afetar positivamente a perceção de exercicio fisico (nesse caso, correr) dos jogadores.
+    -32 participantes, 19H/13M, 22-57 anos, maioria não (costuma) jogar e/ou não conheçe exergames.
+    -testaram com um iPhone, fone de ouvido e braçadeira para prender o celular em um braço.
+    -resultados:
+        -usuários gostaram do jogo, e tiveram uma percepção melhor de correr depois de testar o jogo.
+        -usuários gostaram da atmosfera dos sons, do operador remoto, musica em background com historia narrada enqto corre.
+        -usuários não gostaram da falta de uma história mais complexa/detalhada, motivações do operador eram repetitivas, volume dos dinossauros era baixo,
+         easy mode era fácil, resposta lenta em detectar mudança de velocidade, layout ruim da tela in/during-game
+        -não tiveram problemas com o jogo
+        -queriam que: adicionasse mais variedade ao jogo (level, contexto, frase do operador, etc), customizar stats da sessão de treinamento (como duração
+         e intervalo de velocidade), e uma fase de aquecimento pelo jogo.
+        -2 usuários reportaram que ficaram ansiosos/tensos com a "fuga" do dinosauro. Notam que outros trabalhos tem que tomar cuidado com isso, pois enquanto
+         é um elemento bom para ter no jogo, também pode ser ruim, piorando a experiência (e exercicio fisico) de algumas pessoas.
+        -
 PROBLEMAS:
+-em trabalhos relacionados faz uma referência ao Monsters & Gold (lido nesses 15 artigos), mas sem de fato referênciá-lo, e explicam a avaliação
+ do jogo de forma errada...
 -
 
 #####################################################################################################################################################
