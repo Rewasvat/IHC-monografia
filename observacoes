@@ -938,12 +938,39 @@ PROBLEMAS:
 
 #####################################################################################################################################################
 ##
-##  ARTIGO 15
+##  Game Design Principles in Everyday Fitness Applications
 ##
 #####################################################################################################################################################
 OBJETIVOS:
+-querem combinar jogos de fitness (fitness video game) com aplicações de fitness de uso comuns (everyday fitness applications), para misturar experiência 
+ cativante de jogo com o uso comum no longo-termo e mudança de hábito (para usuários continuarem se exercitando). 
+  => criando um 'everyday fitness game' - jogo de fitness de uso comum (?)
+-resultados de trabalhos passados indicam uma necessidade de um design que encoraja atividade fisica e aborda diversão, sustentabilidade e mudança de comportamento
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
--
+-analizando trabalhos passados em jogos de fitness eles destilaram os seguintes principios de design para jogos de fitness de uso comum:
+    -Mecânica central
+    -representação
+    -micro/sub-objetivos
+    -desafio adequado (fluxo de jogo)
+    -jogo aberto (free play): poucas restrições - jogador faz o que quer
+    -socialização: elementos de socialização entre jogadores
+    -fair play
+-usam os principios para avaliar um design de fitness game existente, o Nike+ iPod. E a análise parece adequada... 
+    -usa corrida, mostra resultados em gráficos, não tem fair play, e só objetivos grandes/longos.
+-inspirados pelo longo-termo de uso de MMOs, eles tentam criar um everyday fitness game chamado Kukini, e compará-lo com o Nike+iPod seguindo os principios listados.
+-Kukini:
+    -jogador é um 'mensageiro' em um mundo virtual grande e tem que correr de A pra B.
+    -jogo começa com objetivos dados pelo jogo e progride para jogos sociais (desafios, missões, torneios) mais complexos
+    -funciona com o mesmo hardware do Nike+ iPod
+    -ao contrário da representação de 'encha-as-barras' do Nike+, esse jogo tem uma representação visual bonita e estilizada para mostrar o aspecto positivo do
+     visual bonito em uma corrida
+    -ao contrário do Nike+, suporta micro objetivos, e tarefas grandes/longas são divididas em vários sub-objetivos.
+    -free play: tem vários quests e outras para fazer, em várias regiões do mundo
+    -provê desafio adequado usando resultados passados do jogador para sugerir próximos desafios.
+    -incentiva jogo social, competitivo, cooperativo, formação de amizades, equipes, etc
+    -não explicam muito como resolvem o fair play, exceto que tem global leaderboards e automatic player matching, mas não fala se o auto-match é baseado em skill
+     do jogador
+    -
 PROBLEMAS:
--
+-escrevi alguns sobre kukini durante descrição dele acima
