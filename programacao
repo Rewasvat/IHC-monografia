@@ -1,11 +1,6 @@
 slides (S) - apresentação levar no máx 15 minutos
 monografia (M) - 12 a 15 páginas
 
-sabado - 1
-domingo - 1
-sexta - 1
-terça ou quinta - 1
-
 ----------------
 
 15~21: S
@@ -17,21 +12,70 @@ terça ou quinta - 1
     
 -----------------
 
-[OK] bodilyInteractionInTheDark ................................ 367k [RESUMIDO]
-[OK] considerationsDesignExergames ............................. 201k
-[OK] designingActionBasedExergames ............................. 986k [RESUMIDO]
-[OK] designingBodilyEngagingGames .............................. 884k
-[OK] designingUniversallyAccessibleGames ...................... 4066k
-[OK] designRequirementsTechnologiesEncouragePhysicalActivity .. 2348k
-[OK] designThemesForSkateboarding  ............................ 2894k [RESUMIDO]
-[OK] exerLink  ................................................ 2790k
-[OK] exploratoryStudyNonVisualMobileGameInterfaces ............. 189k
-[OK] exploringAudioStorytellingInMobileExergames ............... 906k
-[OK] gameDesignPrinciplesFitnessApplications  .................. 791k
-[OK] healthifyingExergames  ................................... 1294k
-[OK] physicalActivityMotivatingGames ......................... 10363k
-[OK] smarterPhonesForHealthierLifestyles ...................... 2020k
-[OK] understandingExergamesOverTime ............................ 969k [RESUMIDO]
+A: acessabilidade
+I: intensidade de exercicio fisico adequada
+D: duracao de exercicio fisico adequada
+E: atividade fisica adequada (I+D)
+M: motivação/interesse do usuário
+
+( 6)  designRequirementsTechnologiesEncouragePhysicalActivity ...   .. Apr ... 2006 .. [R]
+( 2)  considerationsDesignExergames .............................   .. Dec ... 2007 .. [R: 6]
+( 9)  exploratoryStudyNonVisualMobileGameInterfaces ............. A .. Out ... 2008 .. [R]
+(11)  gameDesignPrinciplesFitnessApplications  ..................   .. Nov ... 2008 .. [R: 6]
+( 5)  designingUniversallyAccessibleGames ....................... A .. Fev ... 2009 .. [R]
+(14)  smarterPhonesForHealthierLifestyles .......................   .. Out/Dec 2010 .. [R]
+( 4)  designingBodilyEngagingGames ..............................   .. Jul ... 2011 .. [R]
+( 8)  exerLink  .................................................   .. Jun ... 2012 .. [R: 11, 6]
+(13)  physicalActivityMotivatingGames ...........................   .. Dec ... 2012 .. [R: 11, 6]
+( 1) *bodilyInteractionInTheDark ................................   .. Apr/May 2013 .. [R]
+( 3) *designingActionBasedExergames ............................. A .. Apr/May 2013 .. [R: 5]
+( 7) *designThemesForSkateboarding  .............................   .. Apr/May 2013 .. [R]
+(15) *understandingExergamesOverTime ............................   .. Apr/May 2013 .. [R: 14, 11, 6]
+(10)  exploringAudioStorytellingInMobileExergames ............... A .. May ... 2013 .. [R: 14, 9]
+(12)  healthifyingExergames  ....................................   .. Apr/May 2014 .. [R: 15]
+
+
+( 1) *bodilyInteractionInTheDark ................................ Abril/Maio 2013
+        -no escuro, pessoa usa mais a imaginação para 'ver' o mundo
+        -no escuro, pessoas se movimentavam mais lentamente e ficavam mais relaxadas
+        -percepção de sua habilidade com o jogo melhorou depois de ter experiencia
+        -atividade no escuro é mais reflexiva e consciente com seu corpo
+        -no escuro, se preocupavam mais com o que sentia do que com aparencia visual do movimento
+        -alguns ficam mais cuidadosos (medo) no escuro, outros ficam mais livres
+        -alguns sentem pressão de fazer certo por "serem observados" no claro
+( 2)  considerationsDesignExergames ............................. Decembro 2007
+        -exergame pra ter sucesso precisa ser atrativo e eficiente (no exercicio fisico)
+        -interfaces/controles de exercicio precisam ser casadas com o jogo certo pra ser bem sucedido
+        -um problema de exergames para atletas é a falta de feedback fisico ao usuário do jogo
+        -exercicio tem que ser adaptado ao jogador (duração/intensidade), com fases de aquecimento, exercicio e cooldown
+( 3) *designingActionBasedExergames ............................. Abril/Maio 2013
+        -crianças com deficiencias motoras tambem querem jogar jogos de ritmo rápido
+        -encontraram pontos no design de jogos que se alterados/implementados melhoravam a usabilidade do jogo para crianças com PC
+( 4)  designingBodilyEngagingGames .............................. Julho 2011
+        -como em jogos digitais usuarios ficam olhando para tela, jogadores não interagem (fisicamente) entre si, e nao conseguem olhar e prever movimento de outros jogadores como em esportes usuais
+        -vários exergames se baseiam em esportes mas 'falham' pois não conseguem reproduzir o jogo direito, em parte pq jogadores nao se vem (não tem antecipação, tática e ilusão)
+        -para o computador ficar em segundo plano, o jogo com essas habilidades não determina as ações do jogador - ele as decide baseado pelas ações de oponentes e companheiros
+        -parece mais com um esporte de fato do que com um jogo
+( 5)  designingUniversallyAccessibleGames ....................... Fevereiro 2009
+        -jogos universalmente acessiveis
+        -precisam ter diversas formas de input/output(feedback) paralelamente, principais de acordo com perfil do jogador
+        -pode precisar que universo do jogo muda de acordo com perfil (muda regras, numero de inimigos, etc)
+        -possivel jeito de fazer mutiplayer no jogo com jogadores de perfils diferentes é que jogadores joguem o mesmo jogo mas em universos diferentes paralelamente, e que um afete o outro
+( 6)  designRequirementsTechnologiesEncouragePhysicalActivity ... Abril 2006
+( 7) *designThemesForSkateboarding  ............................. Abril/Maio 2013
+( 8)  exerLink  ................................................. Junho 2012
+( 9)  exploratoryStudyNonVisualMobileGameInterfaces ............. Outubro 2008
+(10)  exploringAudioStorytellingInMobileExergames ............... (?) 2013
+(11)  gameDesignPrinciplesFitnessApplications  .................. Novembro 2008
+(12)  healthifyingExergames  .................................... Abril/Maio 2014
+(13)  physicalActivityMotivatingGames ........................... Dezembro 2012
+(14)  smarterPhonesForHealthierLifestyles ....................... Outubro/Dezembro 2010
+(15) *understandingExergamesOverTime ............................ Abril/Maio 2013
+        -motivação de jogadores ao longo do tempo
+        -efeito plateau
+        -comportamento de jogadores em relação a sua self-efficacy: objetivos, dificuldade do jogo, escolha de jogo
+        -sucesso no jogo é relativo ao usuário e não necessariamente ligado à satisfação com o jogo
+        -cuidado com background de jogadores em jogos competitivos - pode levar a comportamentos ruins/não-desejados
 
 [--] SLIDES
 [--] MONOGRAFIA

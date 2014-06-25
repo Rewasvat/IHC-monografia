@@ -1,0 +1,129 @@
+\documentclass[11pt]{article} 
+\usepackage{times} 
+\usepackage{graphicx}
+
+%% Escrevendo em português
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+\setlength{\textheight}{9in}
+\setlength{\textwidth}{6.8in}
+\setlength{\topmargin}{-0.20in}
+\setlength{\headheight}{0.0in}
+\setlength{\headsep}{0.0in}
+\setlength{\oddsidemargin}{-0.2in}
+\setlength{\evensidemargin}{-0.2in}
+\setlength{\columnsep}{1.0pc}
+\setlength{\parindent}{0pc}
+\setlength{\parskip}{0pt}
+\linespread{1.5} 
+
+\newcommand{\sepitem}{\vspace{0.1in}\item} 
+\newcommand{\titulo}{\item \textbf}
+\begin {document}
+\small{
+\title{
+{\small 
+Departamento de Ciência da Computação \hfill IME/USP}\\\vspace{0.1in}
+MAC5786 - Princípios de Interação Humano Computador
+}
+\vspace{-0.6in} 
+\author{Fernando Omar Aluani  \{\textit{aluani@ime.usp.br}\}
+\vspace{-0.6in} 
+}
+\date{Tema da Monografia: Exergames and Beyond}
+\maketitle
+}
+\vspace {-0.3in}
+\thispagestyle{empty}
+
+\section{Resumo} %TODO
+Escreva aqui um breve resumo do seu trabalho, com 10 a 15 linhas.
+O resumo deve conter uma breve descrição do tema, e do objetivo da sua
+monografia, que seria comparar os 3 ou 4 artigos, contando
+como esses trabalhos contribuem com soluções para problemas
+relacionados ao estado da arte do tema.
+
+\section{Introdução}
+\label{sec:Introducao}
+%A introdução deve descrever o tema. Possivelmente, a partir das
+%introduções dos demais artigos, você possa costurar uma breve
+%descrição dos problemas atuais.
+\textit{Exergames} são jogos digitais que envolvem exercício físico como um
+elemento da interface do jogo com o jogador, usualmente usando algum equipamento
+especial como forma de usar o exercício físico do jogador como entrada para
+o jogo. Exergames existem desde a década de 80 [REF], mas tem tido um sucesso %TODO referencia 
+revigorado nos últimos anos. Isso se dá pela facilidade de jogar tais
+jogos, tanto em casa como ao ar-livre, graças a tecnologias recentes como \textit{smartphones} e 
+os consoles \textit{Wii} e  \textit{XBox 360}, e em grande parte pela possibilidade de levar 
+exercício físico a uma atividade que é usualmente sedentária.
+
+Atualmente a obesidade é um grave problema mundial, afetando uma grande quantidade de adultos e crianças
+e levando a diversos problemas de saúde (problemas cardíacos, [MAIS]). %TODO melhorar, e referencia?
+Um fator importante que contribui ao aumento da obesidade é a falta de atividade física adequada
+das pessoas hoje em dia [REF]. Com isso em mente, pesquisadores tem se voltado cada vez mais à %TODO referencia
+tecnologia para desenvolver soluções que incentivem uma mudança de comportamento nas pessoas,
+para que elas realizem mais exercício físico, e exergames são os principais resultados desse esforço.
+
+Porém essa área ainda está crescendo e tem seus problemas. Exergames atualmente ainda sofrem
+com vários problemas como incapacidade de propiciar uma intensidade e duração de atividade física 
+adequadas e queda de interesse dos usuários após algumas semanas de uso. Esses problemas fazem  %TODO talvez referenciar problemas?
+exergames atuais não serem exatamente eficientes como forma de incentivar exercício físico para
+tentar reduzir obesidade. Artigos nessa área, como os estudados nesse trabalho, tem tentado
+avançar a pesquisa e desenvolvimento de exergames e corrigir alguns desses problemas.
+
+\section{Apresentação dos artigos}  %TODO
+\label{sec:Artigos}
+%Nessa sessão você deve tentar apresentar os artigos como exemplos de
+%trabalhos que descrevem o estado da arte do tema escolhido. Idealmente
+%deve haver uma continuidade entre as descrições dos artigos, visando
+%facilitar o acompanhamento do texto e entendimento do leitor.
+%
+%Faça  a apresentação dos artigos de forma organizada, por exemplo,
+%dividindo-os em subseções. Figuras, como a figura~\ref{fig:Cabines}
+%são também muito importantes para o 
+%entendimento do texto. Porém, caso você venha a utilizar uma figura de
+%um dos trabalhos que você leu, forneça os créditos devidamente no
+%caption da própria figura (\textbf{Embora o correto seria obter permissão de
+%reprodução do próprio autor}).
+%
+%Quando necessário, utilize também
+%outras referências. Para isso use o comando \texttt{cite} do
+%latex. Por exemplo, Braski \cite{bradski:opencv} apresenta um manual
+%do OpenCV e, para saber mais sobre os tópicos de visão e
+%processamento de imagens que cobrimos ao longo do semestre você pode
+%consultar \cite{hartley:04,gon:dip,Pedrini:AID}.
+%%%
+
+
+\section{Discussão e Comentários}  %TODO
+\label{sec:Discussao}
+Na última sessão, você pode resumir as contribuições de cada artigo
+(não há nada de errado também em criticar o(s) artigo(s) caso você deseje)
+e discutir os problemas que ainda restam. 
+
+\begin{thebibliography}{10}  %TODO
+\bibitem{bradski:opencv}
+G.~Bradski and A.~Kaehler.
+\newblock{Learning OpenCV: Computer Vision with the OpenCV Library}. 
+\newblock{O'Reilly}, 2008.
+\bibitem{hartley:04}
+    R.I.~Hartley and A.~Zisserman.
+    \newblock {\em Multiple View Geometry in Computer Vision: 2nd Edition}.
+    \newblock Morgan Kaufmann, 2004.
+\bibitem{gon:dip}
+    R.C.~Gonzalez and R.~E.~Woods.
+    \newblock {\em Digital Image Processing}.
+    \newblock 2nd edition, Prentice Hall, 2002.
+\bibitem{Pedrini:AID}[Pedrini, 2008]
+    H. Pedrini and W.R. Schwartz. 
+    \newblock Análise de Imagens Digitais. Princípios, Algoritmos e Aplicações.
+    \newblock Thomson Learning, 2008. 
+\end{thebibliography}
+
+\vfill
+
+\raggedleft
+{\sc junho/2014}
+
+\end{document}
