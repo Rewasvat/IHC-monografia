@@ -34,6 +34,22 @@ M: motivação/interesse do usuário
 (10)  exploringAudioStorytellingInMobileExergames ............... A .. May ... 2013 .. [R: 14, 9]
 (12)  healthifyingExergames  ....................................   .. Apr/May 2014 .. [R: 15]
 
+-----
+mobiles: 6, 9, 10, 14, 15
+fullBody: 1, 7
+interface exercicio diferente: 3, 4, 8
+coisas para design: (1), 2, 3, 6, 7, 8, 9, 12, 13, 14, 15
+acessabilidade: 3, 5, 9, 10
+-----
+coisas para design:
+praticamente todos artigos estudados contribuem de alguma forma ao design, mas alguns 
+focam mais nesse aspecto e/ou foram feitos com esse objetivo em mente:
+2, 6, 8, 12, 13, 14, 15
+
+diferentes/"experimentais": 1, 7
+
+3, 4, 5, 
+-----
 
 ( 1) *bodilyInteractionInTheDark ................................ Abril/Maio 2013
         -no escuro, pessoa usa mais a imaginação para 'ver' o mundo
@@ -62,14 +78,62 @@ M: motivação/interesse do usuário
         -pode precisar que universo do jogo muda de acordo com perfil (muda regras, numero de inimigos, etc)
         -possivel jeito de fazer mutiplayer no jogo com jogadores de perfils diferentes é que jogadores joguem o mesmo jogo mas em universos diferentes paralelamente, e que um afete o outro
 ( 6)  designRequirementsTechnologiesEncouragePhysicalActivity ... Abril 2006
+        -descobriram que pessoas jogavam/exercitavam mais com um exergame com funcionalidades sociais (comparação/coop/competição/motivação entre amigos)
+        -descobriram os seguintes requerimentos de design para uma tecnologia que incentiva exercicio eficientemente:
+        -Dar crédito aos usuários por suas atividades
+        -Proporcionar consciência/conhecimento pessoal do nivel de atividade
+        -Suportar influência social
+        -Considerar as restrições práticas do estilo de vida do usuário
 ( 7) *designThemesForSkateboarding  ............................. Abril/Maio 2013
+        -querem contribuir para a área de desenhar tecnologias interativas para esportes (ou atletas) que focam na experiencia de realizar truques, pois existem
+         muito pouco trabalho nessa área (ao contrário da de performance atlética).
+        -testaram 12 protótipos de interação, que envolviam feedback visual, sonoro e tátil
+        -formaram os seguintes 4 temas de design para skateboarding: Localização de feedback em relação ao corpo do skatista, Timing de feedback em relação com os picos emocionais depois de truques, 
+         Aspectos do Truque enfatizados pelo feedback, Estética apropriada do feedback (aesthetic fittingness of feedback)
 ( 8)  exerLink  ................................................. Junho 2012
+        -acreditam que pervasive social exergames (exergames com elementos sociais/multiplayer e que podem ser jogados em qualquer lugar/são comuns) com diferentes
+         modalidades de exercicios fisico vai permitir interações sociais realmente ubiquas
+        -para proporcionar um jogo justo, tem que considerar: intensidades e métricas diferentes de dispositivos de exercicio diferentes, diferenças
+         nas intensidades de exercicio que um usuário prefere, e diferenças no delay da rede entre os usuários quando jogam pela internet.
+        -testaram 4 controles de exercicio diferentes: bambôle, corda de pular, esteira e bicicleta fixa.
+        -contrário aos reportes dos participantes, eles acreditam que tipo de exercicio não é um grande fator que influencia o resultado do jogo.
+        -seleção de controles com 'desvantagem' para o jogo era diferente entre os participantes, o que indica que a percepção de injustiça dos 
+         jogadores depende da habilidade deles com cada exercicio.
+        -notam que até então, quase nenhum exergame focou em exercicios diferentes simultaneamente
+        -existem alguns jogos (não exergames) que suportam multiplos controles diferentes, mas nenhum fez algo para balancear uso entre jogadores diferentes
 ( 9)  exploratoryStudyNonVisualMobileGameInterfaces ............. Outubro 2008
-(10)  exploringAudioStorytellingInMobileExergames ............... (?) 2013
+        -Feedback auditivo tem que ser cuidadosamente desenhado. 
+        -Cuidado também deve ser tomado com questões de privacidade e dificuldade de jogar jogos assim em espaços públicos com muito ruido sonoro.
+        -Feedback tátil também abre possibilidades interessantes novas para enriquecer o jogo.
+        -Mas cuidado deve ser tomado para esses feedbacks não sobrecarregarem o sentido do usuário (por exemplo, cegos são altamente sensíveis a sons, e conseguem até escutar
+         barulho de motor de vibração, o que pode confundí-los).
+        -jogo baseado em feedback não-visual abre oportunidade para a imaginação do jogador, o que contribui com seu engajamento com o jogo.
+(10)  exploringAudioStorytellingInMobileExergames ............... Maio 2013
+        -usuários gostaram de um jogo mobile para incentivar corrida, com alta enfase em feedback sonoro, e narração de uma história
+         interativa para "guiar" os jogadores.
+        -mas não gostaram de alguns elementos repetitivos e falta de variedade em alguns aspectos do jogo, assim como a falta de precisão para detectar
+         mudanças de velocidade
 (11)  gameDesignPrinciplesFitnessApplications  .................. Novembro 2008
+        -destilaram os seguintes principios de design para everyday fitness games: Mecânica central, representação, micro/sub-objetivos, desafio adequado (fluxo de jogo)
+         jogo aberto (free play, poucas restrições - jogador faz o que quer), socialização (elementos de socialização entre jogadores), fair play
+        ***ACHO MELHOR NÃO USAR ESSE ARTIGO... NAO VI RESULTADOS/CONTRIBUICOES OBVIAS***
 (12)  healthifyingExergames  .................................... Abril/Maio 2014
+        -sugerem que o ideal é um jogo divertido que envolva exercicio, para o usuário ter uma mentalidade "2 passaros com 1 pedra": se diverte e exercita ao mesmo tempo.
+        -para isso, indicam que o melhor é por enfase inicialmente em um bom jogo, com boas mecânicas e bom gameplay que envolva exercicio, e depois "healthify" ele,
+         com estratégias para incentivar mais exercicio e feedback sobre saúde.
 (13)  physicalActivityMotivatingGames ........................... Dezembro 2012
+        -encoraga jogador a realizar atividades fisicas especificas para ganhar coisas no jogo, potencialmente melhorando suas chances de sucesso nele.
+        -mostraram que um jogo que incentiva o jogador a fazer exercicio para ganhar recompensas in-game foi bem sucedido em fazer os jogadores
+         se exercitarem mais sem alterar a opinião sobre o jogo, dado que o motivador certo (direto) foi usado.
+        -técnicas de recompensa/dificuldade adaptadas ao jogador podem ser necessárias para incentivar todos grupos de jogadores (casuais, prós, etc) a
+         se exercitarem da mesma maneira.
 (14)  smarterPhonesForHealthierLifestyles ....................... Outubro/Dezembro 2010
+        -conseguiram fazer um jogo mobile que incentiva usuários a correr e se exercitarem adequadamente.
+        -jogo se adapta para usuário realizar exercicio adequado a ele
+        -feedback sonoro era importante
+        -usuários gostaram do jogo mas falaram que se tornaria repetitivo ao longo-termo, o que é ruim.
+        -estudo tinha alguns problemas facilmente corrigiveis (como usar alto-falante pra som, o que é ruim pra privacidade), e outros que
+         precisam pensar mais um pouco (usar oxímetro na orelha não é exatamente discreto).
 (15) *understandingExergamesOverTime ............................ Abril/Maio 2013
         -motivação de jogadores ao longo do tempo
         -efeito plateau

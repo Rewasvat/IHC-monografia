@@ -407,7 +407,7 @@ OBJETIVOS:
 -chamaram esse design de "Play, Mate!"
 -
 CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
--em contraste com outros aplicativos que tentam incentivar atividae física pesquisados, o PlayMate design não depende de fatores motivacionais externos,
+-em contraste com outros aplicativos que tentam incentivar atividade física pesquisados, o PlayMate design não depende de fatores motivacionais externos,
  mas aproveita o envolvimento com jogos para motivar o usuário.
 -ao contrário de interfaces de exercício físico, que necessitam que o jogador se exercite para jogar, esse PlayMate design permite que o jogador
  escolhe quando e quanto se exercitar.
@@ -594,7 +594,7 @@ CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
 -Protótipos de controles de exercicio para jogos.
     -usaram processo iterativo de design para desenvolver os protótipos, com 21 participantes (20-35 anos) pagos. 3 testes feito em 8 meses, onde os
      participantes podiam usar os controles livremente, e depois eram entrevistados para respostas e comentários.
-    -HULA HOOP (controle portátil...?):
+    -HULA HOOP (bambôle, controle portátil...?):
         -primeiro tentaram adicionar um acelerômetro e transmissor bluetooth para um hula-hoop, e o jogo recebia dados do acelerometro e calculava
          os dados necessários. Mas usuários reportaram que a responsividade era ruim...
         -adaptaram adicionando 8 sensores na circunferência interna do hoop, e usaram os dados desses sensores (contato entre o hoop e o jogador)
@@ -803,7 +803,7 @@ CONTRIBUIÇÕES/RESULTADOS_PRINCIPAIS:
 -Monsters & Gold:
     -mede frequencia cardiaca baseado em um oximetro bluetooth na orelha do usuário
     -usa GPS do celular pra determinar posição e velocidade
-    -baseado no conhecimento de exoerts (fisiologista de esportes (?) e treinador fisico profissional) o jogo tenta ajudar os usuários a atingir
+    -baseado no conhecimento de experts (fisiologista de esportes (?) e treinador fisico profissional) o jogo tenta ajudar os usuários a atingir
      os benefícios cardiovasculares adequadamente.
     -usuários devem correr em sessões de 30-50min, divididas em 3 fases: aquecimento, exercicio e esfriamento(cooldown).
     -jogo adapta para ajudar usuários atingir intensidade otimal para cada fase
