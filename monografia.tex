@@ -94,8 +94,198 @@ avançar a pesquisa e desenvolvimento de exergames e corrigir alguns desses probl
 %processamento de imagens que cobrimos ao longo do semestre você pode
 %consultar \cite{hartley:04,gon:dip,Pedrini:AID}.
 %%%
+Este trabalho estudou quinze artigos da área e dividiu eles em 3 sub-áreas:
+Design de Exergames, Experiência de Esportes/Jogos com o Corpo e Acessabilidade. 
+Enquanto todos são relacionados com exergame e contribuem para a área de algum jeito, 
+os artigos em cada sub-área são mais relacionados entre si, e são mais focados ou 
+contribuem mais sucintamente para a sub-área em questão.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Design de Exergames}
+Os artigos apresentados aqui lidam principalmente com questões relativas ao design de um
+exergame, e tentam resolver problemas como motivação do jogador (a continuar jogando e se
+exercitando), mudança de comportamento do usuário (para se exercitar mais independente do jogo),
+exercício físico adequado (tanto intensidade quanto duração de exercício, relativo ao jogador).
+
+Boa parte deles realizaram estudos com exergames \textit{mobile} (para \textit{smartphones}) que eles
+mesmos desenvolveram, usando a atividade de andar ou correr como exercício.
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Requerimentos de Design de Tecnologias que Encorajam Atividade Física} % 6 designRequirementsTechnologiesEncouragePhysicalActivity Abril 2006
+Este artigo de 2006, por Consolvo et al. [REF], é o mais antigo estudado por esse trabalho e  %TODO referencia
+vários artigos listados nessa seção o referenciam. Eles queriam pesquisar como tecnologia pode ajudar a 
+incentivar pessoas a manter atividade física para reduzir problemas decorrentes de obesidade, e a partir
+disso e de seu estudo eles descobriram que as pessoas jogavam e se exercitavam mais com seu exergame
+quando funcionalidades sociais (como comparação, mensagens entre amigos, etc) estavam presentes,
+e definiram algums requerimentos de design para tecnologias que incentivem atividade física:
+\begin{itemize}
+  \item Dar crédito aos usuários por suas atividades, para ele ser reconhecido pelo o que realizou.
+  \item Proporcionar consciência/conhecimento pessoal do nível de atividade do usuário, para que ele
+    possa rever atividades realizadas para lembrança ou planejamento de atividades e objetivos futuros.
+  \item Suportar influência social, isto é, suportar funcionalidades sociais como cooperação,
+    competição, conversa e motivação entre amigos.
+  \item Considerar as restrições práticas do estilo de vida do usuário, pois dependendo do estilo de vida 
+    do jogador nem todo exergame será atrativo ou jogável a ele.
+\end{itemize}
 
 
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Considerações para o Design de Exergames} %  2 considerationsDesignExergames Decembro 2007
+Sinclair et al. [REF] revisou história de exergames e o estado da pesquisa da área para tentar analisar o que %TODO referencia
+faz um exergame ser bem sucedido, tanto no sentido de um jogo (ser jogado por muitas pessoas por bastante 
+tempo) quanto no sentido de exercício (dar benefícios a saúde). 
+
+Eles descobriram que um problema de exergames, principalmente para pessoas mais acostumadas a exercicio como 
+atletas, é a falta de feedback físico do jogo ao usuário. Também notaram que a interface (ou controle) que
+o usuário usa para ``passar'' seu exercício para o jogo influencia se o jogo será bem sucedido, pois ela
+tem que ser bem feita de acordo com o jogo, para ambos funcionarem bem em conjunto. E reconheceram que os 
+dois principais fatores de sucesso são:
+\begin{itemize}
+  \item Atratividade do jogo: um jogador tem que gostar e querer continuar jogando o exergame para receber 
+    os beneficios do exercicio fisico. Isso corresponde a ``estar no fluxo'' da Teoria de Fluxo de Jogo, que
+    significa que o desafio do jogo e a habilidade do jogador estão balanceadas, o que leva a uma experiência
+    mais cativante e divertida pro jogador. Várias qualidades do jogo podem ser alteradas pelo seu designer a
+    fim de melhorar esse ponto, assim como o dispositivo de interface fisica usada, tomando cuidado para não dividir
+    a atenção do jogador entre o dispositivo e a tela do jogo.
+  \item A eficiência do exercício físico: para o jogo ser bem sucedido no quesito saúde, maximizando os benefícios,
+    a atividade física tem que ser adaptada ao jogador, suportando fases de aquecimento, exercício e resfriamento 
+    com duração e intensidades adequadas. Isso é equivalente a ``estar no fluxo'', se vc considerar dificuldade do
+    exercício físico e aptidão física do jogador como desafio/habilidade da Teoria de Fluxo de Jogo.
+\end{itemize}
+Com isso, eles notam que assim como um jogo é bem sucedido se segue o fluxo, um exergame é bem sucedido se segue
+ambos fluxos.
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Princípios de Design de Jogos para Aplicações de Fitness de uso diário} % 11 gameDesignPrinciplesFitnessApplications Novembro 2008
+%TODO subsubsecao inteira
+-destilaram os seguintes principios de design para everyday fitness games: Mecânica central, representação, micro/sub-objetivos, desafio adequado (fluxo de jogo)
+jogo aberto (free play, poucas restrições - jogador faz o que quer), socialização (elementos de socialização entre jogadores), fair play
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{ExerLink} %  8 exerLink Junho 2012
+%TODO subsubsecao inteira
+-acreditam que pervasive social exergames (exergames com elementos sociais/multiplayer e que podem ser jogados em qualquer lugar/são comuns) com diferentes
+ modalidades de exercicios fisico vai permitir interações sociais realmente ubiquas
+-para proporcionar um jogo justo, tem que considerar: intensidades e métricas diferentes de dispositivos de exercicio diferentes, diferenças
+ nas intensidades de exercicio que um usuário prefere, e diferenças no delay da rede entre os usuários quando jogam pela internet.
+-testaram 4 controles de exercicio diferentes: bambôle, corda de pular, esteira e bicicleta fixa.
+-contrário aos reportes dos participantes, eles acreditam que tipo de exercicio não é um grande fator que influencia o resultado do jogo.
+-seleção de controles com 'desvantagem' para o jogo era diferente entre os participantes, o que indica que a percepção de injustiça dos 
+ jogadores depende da habilidade deles com cada exercicio.
+-notam que até então, quase nenhum exergame focou em exercicios diferentes simultaneamente
+-existem alguns jogos (não exergames) que suportam multiplos controles diferentes, mas nenhum fez algo para balancear uso entre jogadores diferentes
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Jogos que Motivam Atividade Física} % 13 physicalActivityMotivatingGames Dezembro 2012
+%TODO subsubsecao inteira
+-encoraga jogador a realizar atividades fisicas especificas para ganhar coisas no jogo, potencialmente melhorando suas chances de sucesso nele.
+-mostraram que um jogo que incentiva o jogador a fazer exercicio para ganhar recompensas in-game foi bem sucedido em fazer os jogadores
+se exercitarem mais sem alterar a opinião sobre o jogo, dado que o motivador certo (direto) foi usado.
+-técnicas de recompensa/dificuldade adaptadas ao jogador podem ser necessárias para incentivar todos grupos de jogadores (casuais, prós, etc) a
+se exercitarem da mesma maneira. 
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Celulares Inteligentes para Estilos de Vida mais Saudáveis} % 14 smarterPhonesForHealthierLifestyles Outubro/Dezembro 2010
+%TODO subsubsecao inteira
+-conseguiram fazer um jogo mobile que incentiva usuários a correr e se exercitarem adequadamente.
+-jogo se adapta para usuário realizar exercicio adequado a ele
+-feedback sonoro era importante
+-usuários gostaram do jogo mas falaram que se tornaria repetitivo ao longo-termo, o que é ruim.
+-estudo tinha alguns problemas facilmente corrigiveis (como usar alto-falante pra som, o que é ruim pra privacidade), e outros que
+precisam pensar mais um pouco (usar oxímetro na orelha não é exatamente discreto).
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Entendendo Uso de Exergames ao Longo do Tempo} % 15 understandingExergamesOverTime Abril/Maio 2013
+%TODO subsubsecao inteira
+-motivação de jogadores ao longo do tempo
+-efeito plateau
+-comportamento de jogadores em relação a sua self-efficacy: objetivos, dificuldade do jogo, escolha de jogo
+-sucesso no jogo é relativo ao usuário e não necessariamente ligado à satisfação com o jogo
+-cuidado com background de jogadores em jogos competitivos - pode levar a comportamentos ruins/não-desejados
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Deixando Exergames mais saudáveis} % 12 healthifyingExergames Abril/Maio 2014
+%TODO subsubsecao inteira
+-sugerem que o ideal é um jogo divertido que envolva exercicio, para o usuário ter uma mentalidade "2 passaros com 1 pedra": se diverte e exercita ao mesmo tempo.
+-para isso, indicam que o melhor é por enfase inicialmente em um bom jogo, com boas mecânicas e bom gameplay que envolva exercicio, e depois "healthify" ele,
+com estratégias para incentivar mais exercicio e feedback sobre saúde.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Experiência de Esportes e Jogos com o Corpo}
+Os artigos apresentados nessa seção se focam mais na experiência do jogador em relação ao seu corpo
+e o próprio jogo, e usualmente envolvem exercícios com o corpo inteiro por via de esportes ou
+jogos físicos aperfeiçoados com elementos digitais de forma que o componente digital fica em segundo
+plano. Também tentam resolver problema de motivação do jogador e exercício físico adequado, mas
+a partir de um esporte ou brincadeira ao invés de um jogo.
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Desenhando Jogos Envolventes com o Corpo} % 4 designingBodilyEngagingGames
+%TODO subsubsecao inteira
+-como em jogos digitais usuarios ficam olhando para tela, jogadores não interagem (fisicamente) entre si, e nao conseguem olhar e prever movimento de outros jogadores como em esportes usuais
+-vários exergames se baseiam em esportes mas 'falham' pois não conseguem reproduzir o jogo direito, em parte pq jogadores nao se vem (não tem antecipação, tática e ilusão)
+-para o computador ficar em segundo plano, o jogo com essas habilidades não determina as ações do jogador - ele as decide baseado pelas ações de oponentes e companheiros
+-parece mais com um esporte de fato do que com um jogo
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Interação Corpórea no Escuro} % 1 bodilyInteractionInTheDark
+%TODO subsubsecao inteira
+-no escuro, pessoa usa mais a imaginação para 'ver' o mundo
+-no escuro, pessoas se movimentavam mais lentamente e ficavam mais relaxadas
+-percepção de sua habilidade com o jogo melhorou depois de ter experiencia
+-atividade no escuro é mais reflexiva e consciente com seu corpo
+-no escuro, se preocupavam mais com o que sentia do que com aparencia visual do movimento
+-alguns ficam mais cuidadosos (medo) no escuro, outros ficam mais livres
+-alguns sentem pressão de fazer certo por "serem observados" no claro
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+\subsubsection{Temas de Design para Skateboarding} % 7 designThemesForSkateboarding Abril/Maio 2013
+%TODO subsubsecao inteira
+-querem contribuir para a área de desenhar tecnologias interativas para esportes (ou atletas) que focam na experiencia de realizar truques, pois existem
+muito pouco trabalho nessa área (ao contrário da de performance atlética).
+-testaram 12 protótipos de interação, que envolviam feedback visual, sonoro e tátil
+-formaram os seguintes 4 temas de design para skateboarding: Localização de feedback em relação ao corpo do skatista, Timing de feedback em relação com os picos emocionais depois de truques, Aspectos do Truque enfatizados pelo feedback, Estética apropriada do feedback (aesthetic fittingness of feedback)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Acessabilidade}
+Esta seção apresenta artigos que se focam principalmente em questões de acessabilidade de 
+exergames, tentando resolver o problema da falta de exergames adequados a pessoas com 
+necessidades especiais.
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Estudo Exploratório de Interfaces Não-Visuais para Jogos Mobile} %  9 exploratoryStudyNonVisualMobileGameInterfaces Outubro 2008
+%TODO subsubsecao inteira
+-Feedback auditivo tem que ser cuidadosamente desenhado. 
+-Cuidado também deve ser tomado com questões de privacidade e dificuldade de jogar jogos assim em espaços públicos com muito ruido sonoro.
+-Feedback tátil também abre possibilidades interessantes novas para enriquecer o jogo.
+-Mas cuidado deve ser tomado para esses feedbacks não sobrecarregarem o sentido do usuário (por exemplo, cegos são altamente sensíveis a sons, e conseguem até escutar
+ barulho de motor de vibração, o que pode confundí-los).
+-jogo baseado em feedback não-visual abre oportunidade para a imaginação do jogador, o que contribui com seu engajamento com o jogo.
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Explorando Narração de História em Exergames Mobile} % 10 exploringAudioStorytellingInMobileExergames Maio 2013
+%TODO subsubsecao inteira
+-usuários gostaram de um jogo mobile para incentivar corrida, com alta enfase em feedback sonoro, e narração de uma história
+interativa para "guiar" os jogadores.
+-mas não gostaram de alguns elementos repetitivos e falta de variedade em alguns aspectos do jogo, assim como a falta de precisão para detectar
+mudanças de velocidade
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Desenhando Jogos Universalmente Acessíveis} %  5 designingUniversallyAccessibleGames
+%TODO subsubsecao inteira
+-jogos universalmente acessiveis
+-precisam ter diversas formas de input/output(feedback) paralelamente, principais de acordo com perfil do jogador
+-pode precisar que universo do jogo muda de acordo com perfil (muda regras, numero de inimigos, etc)
+-possivel jeito de fazer mutiplayer no jogo com jogadores de perfils diferentes é que jogadores joguem o mesmo jogo mas em universos diferentes paralelamente, e que um afete o outro
+
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Desenhando Exergames de Ação} %  3 designingActionBasedExergames
+%TODO subsubsecao inteira
+-crianças com deficiencias motoras tambem querem jogar jogos de ritmo rápido
+-encontraram pontos no design de jogos que se alterados/implementados melhoravam a usabilidade do jogo para crianças com PC
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussão e Comentários}  %TODO
 \label{sec:Discussao}
 Na última sessão, você pode resumir as contribuições de cada artigo
