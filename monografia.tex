@@ -156,52 +156,87 @@ Com isso, eles notam que assim como um jogo é bem sucedido se segue o fluxo, um 
 ambos fluxos.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsubsection{Princípios de Design de Jogos para Aplicações de Fitness de uso diário} % 11 gameDesignPrinciplesFitnessApplications Novembro 2008
-%TODO subsubsecao inteira
--destilaram os seguintes principios de design para everyday fitness games: Mecânica central, representação, micro/sub-objetivos, desafio adequado (fluxo de jogo)
-jogo aberto (free play, poucas restrições - jogador faz o que quer), socialização (elementos de socialização entre jogadores), fair play
+\subsubsection{Celulares Inteligentes para Estilos de Vida mais Saudáveis} % 14 smarterPhonesForHealthierLifestyles Outubro/Dezembro 2010  Butussi e Chittaro
+O propósito de Butussi e Chittaro [REF] nesse artigo era criar um exergame que incentivasse usuários a se exercitar e se adaptasse %TODO referencia 
+para as necessidades do jogador. Nesse quesito, foram um dos primeiros a criar um exergame que adaptasse o exercício ao usuário. 
+Além disso, também queriam que fosse \textit{mobile} para que os jogadores pudessem aproveitar um ambiente ao ar-livre enquanto 
+se exercitam e as capacidades persuasivas de um \textit{smartphone}. 
+
+O jogo que criaram usava o movimento do jogador para movimentar o personagem numa trilha virtual, onde eventos necessitavam que o 
+jogador aumentasse ou diminuisse sua velocidade. O jogo usava um oxímetro sem-fio na orelha do jogador para medir frequência cardíaca,
+e com isso mudava vários paramêtros do jogo para adaptar o exercício ao jogador, como duração da sessão de jogo, quando criar
+evento de qual tipo, entre outros. Também usavam muito feedback sonoro ao jogador para que ele pudesse continuar correndo com
+conhecimento do estado do jogo sem ter que olhar a tela do celular, o que pode ser algo perigoso enquanto se está correndo.
+
+Avaliações do jogo mostraram que o jogo foi bem sucedido em incentivar usuários a correr e se exercitarem adequadamente,
+e os jogadores também responderam que o feedback sonoro foi muito importante para a experiência do jogo. Porém, eles também
+disseram que o jogo em si se tornaria repetitivo no longo-termo, o que é ruim para garantir que ele continue sendo jogado 
+por muito tempo. Além disso, o estudo em si tinha alguns problemas. Alguns facilmente corrigíveis, como usar alto-falante para
+o som ao invés de um fone de ouvido (alto-falante é ruim para a privacidade enquanto se joga), e outros que seria necessário
+pensar mais um pouco e possívelmente outro estudo, como por exemplo trocar o oxímetro por algum outro equipamento mais fácil
+de ser usado pelo jogador (um oxímetro pendurado na sua orelha não é exatamente discreto).
+
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsubsection{ExerLink} %  8 exerLink Junho 2012
-%TODO subsubsecao inteira
--acreditam que pervasive social exergames (exergames com elementos sociais/multiplayer e que podem ser jogados em qualquer lugar/são comuns) com diferentes
- modalidades de exercicios fisico vai permitir interações sociais realmente ubiquas
--para proporcionar um jogo justo, tem que considerar: intensidades e métricas diferentes de dispositivos de exercicio diferentes, diferenças
- nas intensidades de exercicio que um usuário prefere, e diferenças no delay da rede entre os usuários quando jogam pela internet.
--testaram 4 controles de exercicio diferentes: bambôle, corda de pular, esteira e bicicleta fixa.
--contrário aos reportes dos participantes, eles acreditam que tipo de exercicio não é um grande fator que influencia o resultado do jogo.
--seleção de controles com 'desvantagem' para o jogo era diferente entre os participantes, o que indica que a percepção de injustiça dos 
- jogadores depende da habilidade deles com cada exercicio.
--notam que até então, quase nenhum exergame focou em exercicios diferentes simultaneamente
--existem alguns jogos (não exergames) que suportam multiplos controles diferentes, mas nenhum fez algo para balancear uso entre jogadores diferentes
+\subsubsection{ExerLink} %  8 exerLink Junho 2012 Park et al
+Park et al. [REF] acreditam que exergames sociais pervasivos com diferentes modalidades de exercícios físicos vão permitir interações %TODO referencia
+sociais realmente ubiquas. Porém, até então quase nenhum exergame focou em exercicios diferentes simultaneamente, e aqueles que o
+fazem raramente fazem algo para balancear o jogo para jogadores e exercícios diferentes.
+
+Então desenvolveram 4 interfaces de exercícios diferentes: bambôle, corda de pular, esteira e bicicleta fixa. Testaram esses protótipos
+de forma individual e em um exergame onde 2 jogadores tinham que cooperar para atingir o objetivo, e descobriram que a seleção de controles
+com ``desvantagem'' para o jogo era diferentes entre os participantes, o que indica que a percepção de injustiça dos jogadores depende
+da habilidade deles com cada exercício. Ao contrário do que os participantes do estudo responderam, os autores acreditam que o tipo de
+exercício não é um grande fator que influencia o resultado do jogo. E também descobriram que para proporcionar um jogo justo, é necessário
+considerar:
+\begin{itemize}
+  \item Intensidades e métricas diferentes de dispositivos de exercícios diferentes.
+  \item Diferenças nas intensidades de exercício que um usuário prefere.
+  \item Diferenças no atraso da rede entre os usuários quando jogam pela internet.
+\end{itemize}
+
+ 
+%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Jogos que Motivam Atividade Física} % 13 physicalActivityMotivatingGames Dezembro 2012 Berkovsky et al
+Neste artigo, Berkovsky et al. [REF] tentou uma forma diferente para realizar um exergame. Ao contrário do padrão de exergames que %TODO referencia
+obrigam que o jogador se exercite para realizar uma tarefa básica no jogo (como se mover, por exemplo), eles estudaram o uso de um exergame
+onde o exercício é opcional, mas retribui o jogador com ``prêmios'' dentro do jogo que podem melhorar suas chances de sucesso. Além disso,
+para testar a eficiência desse design, testaram-o sem e com motivadores para incentivar a atividade física opcional,
+
+Com isso, mostraram que um jogo que incentiva o jogador a fazer exercício físico para ganhar recompensas dentro do jogo foi bem
+sucedido em fazer os jogadores se exercitarem mais sem alterar a opinião deles sobre o jogo, dado que o motivador certo foi usado.
+Também notaram que independente do motivador usado, alguns grupos de jogadores reagiam de forma diferente ao incentivo de exercício. 
+Por exemplo, jogadores mais experientes não necessitavam da ajuda da recompensa, e portanto realizavam menos exercícios. Por causa disso,
+técnicas de adaptar recompensa e dificuldade do jogo ao jogador podem ser necessárias para incentivar todos grupos de jogadores a se
+exercitarem da mesma maneira.
+
+
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsubsection{Jogos que Motivam Atividade Física} % 13 physicalActivityMotivatingGames Dezembro 2012
+\subsubsection{Entendendo Uso de Exergames ao Longo do Tempo} % 15 understandingExergamesOverTime Abril/Maio 2013 Macvean e Robertson
 %TODO subsubsecao inteira
--encoraga jogador a realizar atividades fisicas especificas para ganhar coisas no jogo, potencialmente melhorando suas chances de sucesso nele.
--mostraram que um jogo que incentiva o jogador a fazer exercicio para ganhar recompensas in-game foi bem sucedido em fazer os jogadores
-se exercitarem mais sem alterar a opinião sobre o jogo, dado que o motivador certo (direto) foi usado.
--técnicas de recompensa/dificuldade adaptadas ao jogador podem ser necessárias para incentivar todos grupos de jogadores (casuais, prós, etc) a
-se exercitarem da mesma maneira. 
+Exergames efetivos devem aumentar a proporção de tempo que seus usuários gastam realizando atividades físicas, porém até então
+existiram poucos estudos longitudinais para medir o impacto do exergame ao longo do tempo, e os que existiram descobriram um
+efeito platô nos jogos\footnote{A cada dia os usuários passam a usar cada vez menos o exergame, até que algumas semanas depois
+mal usam ele.}. Macvean e Robertson [REF] então estudaram nesse artigo o uso de exergames e a motivação de seus usuários ao longo
+do tempo, para sugerir que design de exergames baseados num entendimento mais profundo da motivação do jogador pudesse resolver
+esses problemas.
 
-%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsubsection{Celulares Inteligentes para Estilos de Vida mais Saudáveis} % 14 smarterPhonesForHealthierLifestyles Outubro/Dezembro 2010
-%TODO subsubsecao inteira
--conseguiram fazer um jogo mobile que incentiva usuários a correr e se exercitarem adequadamente.
--jogo se adapta para usuário realizar exercicio adequado a ele
--feedback sonoro era importante
--usuários gostaram do jogo mas falaram que se tornaria repetitivo ao longo-termo, o que é ruim.
--estudo tinha alguns problemas facilmente corrigiveis (como usar alto-falante pra som, o que é ruim pra privacidade), e outros que
-precisam pensar mais um pouco (usar oxímetro na orelha não é exatamente discreto).
+Para isso, eles estudaram o uso de um exergame \textit{mobile} que consistia em um conjunto de ``mini'' exergames por crianças
+em uma escola ao longo de alguns meses, e descobriram:
+\begin{itemize}
+  \item Sucesso no jogo é relativo ao usuário e não é necessariamente ligado à satisfação com o jogo.
+  \item Competição pode ser bom em um exergame, mas tem que tomar cuidado com o BACKGROUND dos usuários pos essas abordagens baseadas
+    em ego podem levar a motivações indesejadas e comportamentos negativos do jogador em relação ao jogo, principalmente nos jogadores
+    com baixa \textit{self-efficacy}.
+  \item Comportamento de jogadores em relação a objetivos, dificuldade e escolha do jogo era previsível de acordo com sua \textit{self-efficacy}.
+    Por exemplo, jogadores de alta \textit{self-efficacy} tendiam a aumentar a dificuldade do jogo mesmo tendo perdido a partida anterior, enquanto
+    os jogadores com baixa \textit{self-efficacy} diminuiam a dificuldade para maximizar chances de sucesso.
+\end{itemize}
 
-%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsubsection{Entendendo Uso de Exergames ao Longo do Tempo} % 15 understandingExergamesOverTime Abril/Maio 2013
-%TODO subsubsecao inteira
--motivação de jogadores ao longo do tempo
--efeito plateau
--comportamento de jogadores em relação a sua self-efficacy: objetivos, dificuldade do jogo, escolha de jogo
--sucesso no jogo é relativo ao usuário e não necessariamente ligado à satisfação com o jogo
--cuidado com background de jogadores em jogos competitivos - pode levar a comportamentos ruins/não-desejados
+\textit{Self-efficacy} (teoria disso é referenciada pelo artigo) é o quanto uma pessoa acha que ela irá realizar uma dada atividade com
+sucesso. Macvean e Robertson recomendam que designers de exergames tem que considerar a \textit{self-efficacy} para combater o efeito platô
+pois isso tem um papel central em manter a motivação através da definição eficiente de objetivos pessoais.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Deixando Exergames mais saudáveis} % 12 healthifyingExergames Abril/Maio 2014
